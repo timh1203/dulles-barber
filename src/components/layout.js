@@ -4,6 +4,7 @@ import Helmet from 'react-helmet'
 import { StaticQuery, graphql } from 'gatsby'
 import styled, { createGlobalStyle } from 'styled-components'
 import Header from './Header.js'
+import Notification from '../components/Notification'
 
 const Layout = ({ children }) => (
   <StaticQuery
@@ -46,6 +47,7 @@ const Layout = ({ children }) => (
             bannerImage={data.bannerImage.childImageSharp.fluid}
             logoImage={data.logoImage.childImageSharp.fluid}
           />
+        <Notification />
           {children}
         </Wrapper>
 
