@@ -72,7 +72,7 @@ const GlobalStyles = createGlobalStyle`
     margin: 0;
     padding: 0;
     border: 0;
-    font: inherit;
+    font-size: inherit;
     vertical-align: baseline;
   }
   html, body{
@@ -127,7 +127,7 @@ const GlobalStyles = createGlobalStyle`
     border-spacing: 0;
   }
   section {
-    margin-top: 2rem;
+    margin-top: 5rem;
   }
 `
 const Wrapper = styled.div`

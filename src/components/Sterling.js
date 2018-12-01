@@ -4,30 +4,46 @@ import styled from 'styled-components'
 import { links } from '../assets/data/data'
 import { FaMapMarkedAlt, FaYelp, FaFacebookSquare, FaTwitterSquare } from 'react-icons/fa'
 
-const Ashburn = (props) => (
+const Sterling = (props) => (
   <Section>
     <Div1>
-      <Img1 fluid={props.ashburnImage} />
+      <H1a>Sterling</H1a>
+      <p>
+        Cascades Marketplace <br />
+        21000 Southbank Street Ste 108 <br />
+        Sterling, VA 20165 <br />
+        <br />
+        Business Hours:<br />
+        Monday–Friday 9-7PM <br />
+        Saturday 9-6:30PM <br />
+        Sunday 10-5:30PM <br />
+        <br />
+        Phone Number: <br />
+        703-430-3434
+      </p>
+    </Div1>
+    <Div2>
+      <Img1 fluid={props.sterlingImage} />
       <Div3>
         <a
-          href={links.gmaps_ashburn.url}
-          alt={links.gmaps_ashburn.alt}
+          href={links.gmaps_sterling.url}
+          alt={links.gmaps_sterling.alt}
           target="_blank"
           rel="noopener noreferrer"
         >
           <FaMapMarkedAlt1 />
         </a>
         <a
-          href={links.yelp_ashburn.url}
-          alt={links.yelp_ashburn.alt}
+          href={links.yelp_sterling.url}
+          alt={links.yelp_sterling.alt}
           target="_blank"
           rel="noopener noreferrer"
         >
           <FaYelp1 />
         </a>
         <a
-          href={links.fb_ashburn.url}
-          alt={links.fb_ashburn.alt}
+          href={links.fb_sterling.url}
+          alt={links.fb_sterling.alt}
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -42,22 +58,6 @@ const Ashburn = (props) => (
           <FaTwitterSquare1 />
         </a>
       </Div3>
-    </Div1>
-    <Div2>
-      <H1a>Ashburn</H1a>
-      <p>
-        Ashburn Farm Marketplace <br />
-        43330 Junction Plaza Ste 134 <br />
-        Ashburn, VA 20147 <br />
-        <br />
-        Business Hours:<br />
-        Monday–Friday 9-7PM <br />
-        Saturday 9-6PM <br />
-        Sunday 10-5PM <br />
-        <br />
-        Phone Number: <br />
-        703-858-0101
-      </p>
     </Div2>
   </Section>
 )
@@ -125,4 +125,4 @@ const FaTwitterSquare1 = styled(FaTwitterSquare)`
   margin: 0 1rem;
 `
 
-export default Ashburn
+export default Sterling
