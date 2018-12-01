@@ -3,6 +3,7 @@ import { graphql } from 'gatsby'
 import Layout from '../components/layout'
 import Ashburn from '../components/Ashburn'
 import Sterling from '../components/Sterling'
+import About from '../components/About'
 
 const HomePage = (props) => (
   <Layout>
@@ -12,7 +13,9 @@ const HomePage = (props) => (
     <Sterling
       sterlingImage={props.data.sterlingImage.childImageSharp.fluid}
     />
-    <h1>About Component</h1>
+    <About
+      profileImage={props.data.profileImage.childImageSharp.fluid}
+    />
     <h1>Contact Component</h1>
   </Layout>
 )
@@ -27,6 +30,13 @@ export const pageQuery = graphql`
       }
     },
     sterlingImage: file(relativePath: { eq: "sterling.jpg" }) {
+      childImageSharp {
+        fluid(maxWidth: 1000) {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    },
+    profileImage: file(relativePath: { eq: "profile.jpg" }) {
       childImageSharp {
         fluid(maxWidth: 1000) {
           ...GatsbyImageSharpFluid
