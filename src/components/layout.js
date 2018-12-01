@@ -27,7 +27,7 @@ const Layout = ({ children }) => (
               ...GatsbyImageSharpFluid
             }
           }
-        }
+        },
       }
     `}
     render={data => (
@@ -43,8 +43,8 @@ const Layout = ({ children }) => (
         </Helmet>
         <Wrapper>
           <Header
-            bannerImg={data.bannerImage.childImageSharp.fluid}
-            logoImg={data.logoImage.childImageSharp.fluid}
+            bannerImage={data.bannerImage.childImageSharp.fluid}
+            logoImage={data.logoImage.childImageSharp.fluid}
           />
           {children}
         </Wrapper>
@@ -127,7 +127,7 @@ const GlobalStyles = createGlobalStyle`
     border-spacing: 0;
   }
   section {
-
+    margin-top: 2rem;
   }
 `
 const Wrapper = styled.div`

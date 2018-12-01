@@ -4,8 +4,8 @@ import styled from 'styled-components'
 
 const Header = (props) => (
   <Div1>
-    <Img1 fluid={props.bannerImg} />
-    <Img2 fluid={props.logoImg} />
+    <Img1 fluid={props.bannerImage} />
+    <Img2 fluid={props.logoImage} />
   </Div1>
 )
 
