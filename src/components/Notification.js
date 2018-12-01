@@ -11,12 +11,11 @@ const Notification = (props) => (
 
 const Div1 = styled.div`
   background: #DAA520;
-  color: black;
+  color: white;
   height: 40px;
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 3rem;
 `
 const P1 = styled.div`
   font-size: 2rem;

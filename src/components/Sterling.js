@@ -8,19 +8,17 @@ const Sterling = (props) => (
   <Section>
     <Div1>
       <H1a>Sterling</H1a>
-      <p>
+      <P1>
         Cascades Marketplace <br />
         21000 Southbank Street Ste 108 <br />
         Sterling, VA 20165 <br />
         <br />
-        Business Hours:<br />
         Monday–Friday 9-7PM <br />
         Saturday 9-6:30PM <br />
         Sunday 10-5:30PM <br />
         <br />
-        Phone Number: <br />
         703-430-3434
-      </p>
+      </P1>
     </Div1>
     <Div2>
       <Img1 fluid={props.sterlingImage} />
@@ -71,22 +69,25 @@ const Div1 = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  width:25%;
+  width:40%;
 `
 const Div2 = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width:25%;
+  width:40%;
   text-align: left;
 `
 const Div3 = styled.div`
   margin-bottom: 3rem;
 `
+const P1 = styled.p`
+  font-size: 2rem;
+`
 const H1a = styled.h1`
   margin-bottom: 3rem;
+  text-decoration: underline;
 `
 const Img1 = styled(Img)`
   width: 70%;

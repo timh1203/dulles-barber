@@ -47,7 +47,7 @@ const Layout = ({ children }) => (
             bannerImage={data.bannerImage.childImageSharp.fluid}
             logoImage={data.logoImage.childImageSharp.fluid}
           />
-        <Notification />
+          <Notification />
           {children}
         </Wrapper>
 
@@ -83,9 +83,11 @@ const GlobalStyles = createGlobalStyle`
     /* margin: 0 auto; */
     font-size: 62.5%;
     text-align: center;
+    font-family: 'Quicksand';
   }
   h1 {
     font-size: 3.6rem;
+    font-family: 'Lato';
   }
   h2 {
     font-size: 3.4rem;

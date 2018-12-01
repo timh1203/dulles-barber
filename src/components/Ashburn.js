@@ -45,19 +45,17 @@ const Ashburn = (props) => (
     </Div1>
     <Div2>
       <H1a>Ashburn</H1a>
-      <p>
+      <P1>
         Ashburn Farm Marketplace <br />
         43330 Junction Plaza Ste 134 <br />
         Ashburn, VA 20147 <br />
         <br />
-        Business Hours:<br />
         Monday–Friday 9-7PM <br />
         Saturday 9-6PM <br />
         Sunday 10-5PM <br />
         <br />
-        Phone Number: <br />
         703-858-0101
-      </p>
+      </P1>
     </Div2>
   </Section>
 )
@@ -72,21 +70,24 @@ const Div1 = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  width:25%;
+  width:40%;
 `
 const Div2 = styled.div`
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
-  width:25%;
+  width:40%;
   text-align: left;
 `
 const Div3 = styled.div`
   margin-bottom: 3rem;
 `
+const P1 = styled.p`
+  font-size: 2rem;
+`
 const H1a = styled.h1`
   margin-bottom: 3rem;
+  text-decoration: underline;
 `
 const Img1 = styled(Img)`
   width: 70%;

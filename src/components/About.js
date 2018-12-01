@@ -17,7 +17,7 @@ const About = (props) => (
         <br />
         We welcome you to visit us and thank you for checking us out! If we can make your experience better in any way, please let us know.<br />
         <br />
-        Timothy<br />
+        <Span1>Timothy</Span1><br />
         I.T. Manager
       </p>
     </Div2>
@@ -42,6 +42,9 @@ const Div2 = styled.div`
 const Img1 = styled(Img)`
   width: 80%;
   border-radius: 5px;
+`
+const Span1 = styled.span`
+  font-family: "Pacifico";
 `
 
 export default About
