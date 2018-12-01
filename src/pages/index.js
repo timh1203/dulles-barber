@@ -4,6 +4,7 @@ import Layout from '../components/layout'
 import Ashburn from '../components/Ashburn'
 import Sterling from '../components/Sterling'
 import About from '../components/About'
+import Contact from '../components/Contact'
 import Footer from '../components/Footer'
 
 const HomePage = (props) => (
@@ -17,6 +18,7 @@ const HomePage = (props) => (
     <About
       profileImage={props.data.profileImage.childImageSharp.fluid}
     />
+    <Contact />
     <Footer />
   </Layout>
 )
