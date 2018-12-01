@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
 import { StaticQuery, graphql } from 'gatsby'
 import styled, { createGlobalStyle } from 'styled-components'
-import Header from '../components/Header'
+import Header from './Header.js'
 
 const Layout = ({ children }) => (
   <StaticQuery
@@ -12,6 +12,20 @@ const Layout = ({ children }) => (
         site {
           siteMetadata {
             title
+          }
+        },
+        bannerImage: file(relativePath: { eq: "banner.jpg" }) {
+          childImageSharp {
+            fluid(maxWidth: 1000) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        },
+        logoImage: file(relativePath: { eq: "logo.png" }) {
+          childImageSharp {
+            fluid(maxWidth: 1000) {
+              ...GatsbyImageSharpFluid
+            }
           }
         }
       }
@@ -28,7 +42,10 @@ const Layout = ({ children }) => (
           <html lang="en" />
         </Helmet>
         <Wrapper>
-          <Header />
+          <Header
+            bannerImg={data.bannerImage.childImageSharp.fluid}
+            logoImg={data.logoImage.childImageSharp.fluid}
+          />
           {children}
         </Wrapper>
 
@@ -58,12 +75,12 @@ const GlobalStyles = createGlobalStyle`
     font: inherit;
     vertical-align: baseline;
   }
-  html,body{
-    max-width: 1280px;
-    width: 100%;
+  html, body{
+    /* max-width: 1024px; */
+    /* width: 100%; */
+    /* margin: 0 auto; */
     font-size: 62.5%;
     text-align: center;
-    margin: 0 auto;
   }
   h1 {
     font-size: 3.6rem;
