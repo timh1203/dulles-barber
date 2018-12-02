@@ -69,6 +69,7 @@ const Section = styled.section`
   text-align: left;
   display: flex;
   justify-content: center;
+  line-height: 1.4;
 `
 const Div1 = styled.div`
   display: flex;
@@ -77,6 +78,9 @@ const Div1 = styled.div`
   justify-content: space-evenly;
   width:40%;
 `
+const Div2 = styled.div`
+  margin: 2rem 0;
+`
 const Div3 = styled.div`
   display: flex;
   flex-direction: column;
@@ -84,9 +88,6 @@ const Div3 = styled.div`
   align-items: center;
   width:40%;
   text-align: left;
-`
-const Div2 = styled.div`
-  /* margin-bottom: 3rem; */
 `
 const Div4 = styled.div`
       margin-bottom: 3rem;

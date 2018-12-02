@@ -7,16 +7,8 @@ import { FaMapMarkedAlt, FaYelp, FaFacebookSquare, FaTwitterSquare } from 'react
 const Ashburn = (props) => (
   <Section>
     <Div1>
-      <Img1 fluid={props.ashburnImage} />
-      <Div2>
-        <Img2 fluid={props.visaImage} />
-        <Img3 fluid={props.mastercardImage} />
-        <Img4 fluid={props.wifiImage} />
-      </Div2>
-    </Div1>
-    <Div3>
       <H1a>Ashburn</H1a>
-      <Div4>
+      <Div2>
         <a
           href={links.gmaps_ashburn.url}
           alt={links.gmaps_ashburn.alt}
@@ -49,7 +41,7 @@ const Ashburn = (props) => (
         >
           <FaTwitterSquare1 />
         </a>
-      </Div4>
+      </Div2>
       <P1>
         Ashburn Farm Marketplace <br />
         43330 Junction Plaza Ste 134 <br />
@@ -61,6 +53,14 @@ const Ashburn = (props) => (
         <br />
         703-858-0101
       </P1>
+    </Div1>
+    <Div3>
+      <Img1 fluid={props.ashburnImage} />
+      <Div4>
+        <Img2 fluid={props.visaImage} />
+        <Img3 fluid={props.mastercardImage} />
+        <Img4 fluid={props.wifiImage} />
+      </Div4>
     </Div3>
   </Section>
 )
@@ -69,28 +69,29 @@ const Section = styled.section`
   text-align: left;
   display: flex;
   justify-content: center;
+  line-height: 1.4;
 `
 const Div1 = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  width:40%;
+  justify-content: space-evenly;
+  width: 40%;
 `
 const Div2 = styled.div`
-  display: flex;
-  justify-content: space-evenly;
-  width: 100%;
+  margin: 2rem 0;
 `
 const Div3 = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-evenly;
-  width:40%;
+  justify-content: center;
+  width: 40%;
 `
 const Div4 = styled.div`
-  margin: 0;
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
 `
 const P1 = styled.p`
   font-size: 2rem;
