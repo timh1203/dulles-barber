@@ -11,9 +11,15 @@ const HomePage = (props) => (
   <Layout>
     <Ashburn
       ashburnImage={props.data.ashburnImage.childImageSharp.fluid}
+      visaImage={props.data.visaImage.childImageSharp.fluid}
+      mastercardImage={props.data.mastercardImage.childImageSharp.fluid}
+      wifiImage={props.data.wifiImage.childImageSharp.fluid}
     />
     <Sterling
       sterlingImage={props.data.sterlingImage.childImageSharp.fluid}
+      visaImage={props.data.visaImage.childImageSharp.fluid}
+      mastercardImage={props.data.mastercardImage.childImageSharp.fluid}
+      wifiImage={props.data.wifiImage.childImageSharp.fluid}
     />
     <About
       profileImage={props.data.profileImage.childImageSharp.fluid}
@@ -40,6 +46,27 @@ export const pageQuery = graphql`
       }
     },
     profileImage: file(relativePath: { eq: "profile.jpg" }) {
+      childImageSharp {
+        fluid(maxWidth: 1000) {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    },
+    visaImage: file(relativePath: { eq: "visa.png" }) {
+      childImageSharp {
+        fluid(maxWidth: 1000) {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    },
+    mastercardImage: file(relativePath: { eq: "mastercard.png" }) {
+      childImageSharp {
+        fluid(maxWidth: 1000) {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    },
+    wifiImage: file(relativePath: { eq: "wifi.png" }) {
       childImageSharp {
         fluid(maxWidth: 1000) {
           ...GatsbyImageSharpFluid

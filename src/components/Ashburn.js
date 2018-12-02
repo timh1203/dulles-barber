@@ -8,7 +8,15 @@ const Ashburn = (props) => (
   <Section>
     <Div1>
       <Img1 fluid={props.ashburnImage} />
-      <Div3>
+      <Div2>
+        <Img2 fluid={props.visaImage} />
+        <Img3 fluid={props.mastercardImage} />
+        <Img4 fluid={props.wifiImage} />
+      </Div2>
+    </Div1>
+    <Div3>
+      <H1a>Ashburn</H1a>
+      <Div4>
         <a
           href={links.gmaps_ashburn.url}
           alt={links.gmaps_ashburn.alt}
@@ -41,10 +49,7 @@ const Ashburn = (props) => (
         >
           <FaTwitterSquare1 />
         </a>
-      </Div3>
-    </Div1>
-    <Div2>
-      <H1a>Ashburn</H1a>
+      </Div4>
       <P1>
         Ashburn Farm Marketplace <br />
         43330 Junction Plaza Ste 134 <br />
@@ -56,7 +61,7 @@ const Ashburn = (props) => (
         <br />
         703-858-0101
       </P1>
-    </Div2>
+    </Div3>
   </Section>
 )
 
@@ -74,55 +79,69 @@ const Div1 = styled.div`
 `
 const Div2 = styled.div`
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  width:40%;
-  text-align: left;
+  justify-content: space-evenly;
+  width: 100%;
 `
 const Div3 = styled.div`
-  margin-bottom: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  width:40%;
+`
+const Div4 = styled.div`
+  margin: 0;
 `
 const P1 = styled.p`
   font-size: 2rem;
 `
 const H1a = styled.h1`
-  margin-bottom: 3rem;
   text-decoration: underline;
 `
 const Img1 = styled(Img)`
   width: 70%;
   margin-bottom: 3rem;
+  border-radius: 5px;
+`
+const Img2 = styled(Img)`
+  width: 15%;
+`
+const Img3 = styled(Img)`
+  width: 15%;
+`
+const Img4 = styled(Img)`
+  width: 15%;
 `
 const FaMapMarkedAlt1 = styled(FaMapMarkedAlt)`
   color: #3E9F56;
   background: white;
   border-radius: 2px;
-  width: 40px;
-  height: 40px;
+  width: 50px;
+  height: 50px;
   margin: 0 1rem;
 `
 const FaYelp1 = styled(FaYelp)`
   color: #D32323;
   background: white;
   border-radius: 2px;
-  width: 40px;
-  height: 40px;
+  width: 50px;
+  height: 50px;
   margin: 0 1rem;
 `
 const FaFacebookSquare1 = styled(FaFacebookSquare)`
   color: #4267B2;
   background: white;
   border-radius: 2px;
-  width: 40px;
-  height: 40px;
+  width: 50px;
+  height: 50px;
   margin: 0 1rem;
 `
 const FaTwitterSquare1 = styled(FaTwitterSquare)`
   color: white;
   background: #1C9BEA;
   border-radius: 2px;
-  width: 40px;
-  height: 40px;
+  width: 50px;
+  height: 50px;
   margin: 0 1rem;
 `
 
