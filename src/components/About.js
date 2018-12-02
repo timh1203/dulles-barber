@@ -18,8 +18,10 @@ const About = (props) => (
         <br />
         We welcome you to visit us and thank you for checking us out! If we can make your experience better in any way, please let us know.<br />
         <br />
-        <Span1>Timothy</Span1><br />
-        I.T. Manager
+        <Div3>
+          <Span1>Timothy</Span1><br />
+          I.T. Manager
+        </Div3>
       </P1>
     </Div2>
   </Section>
@@ -39,6 +41,9 @@ const Div1 = styled.div`
 const Div2 = styled.div`
   width: 30%;
   line-height: 1.5;
+`
+const Div3 = styled.div`
+  text-align: center;
 `
 const Img1 = styled(Img)`
   width: 80%;
