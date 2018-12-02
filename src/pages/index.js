@@ -23,6 +23,7 @@ const HomePage = (props) => (
     />
     <About
       profileImage={props.data.profileImage.childImageSharp.fluid}
+      logoLongImage={props.data.logoLongImage.childImageSharp.fluid}
     />
     <Contact />
     <Footer />
@@ -67,6 +68,13 @@ export const pageQuery = graphql`
       }
     },
     wifiImage: file(relativePath: { eq: "wifi.png" }) {
+      childImageSharp {
+        fluid(maxWidth: 1000) {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    },
+    logoLongImage: file(relativePath: { eq: "logoLong.png" }) {
       childImageSharp {
         fluid(maxWidth: 1000) {
           ...GatsbyImageSharpFluid

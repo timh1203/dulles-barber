@@ -8,7 +8,8 @@ const About = (props) => (
       <Img1 fluid={props.profileImage} />
     </Div1>
     <Div2>
-      <p>
+      <Img2 fluid={props.logoLongImage} />
+      <P1>
         Dulles Barber is a privately owned family business that provides professional haircuts in the Loudoun County area. Our seasoned barbers have more than 10 years of experience and also diligently mentor newer barbers. <br />
         <br />
         We provide a wide range of services for adults and children including beard trims to skin fades. Enjoy our big screen televisions and magazine varieties while we meticulously apply our craft for each and every patron.<br />
@@ -19,7 +20,7 @@ const About = (props) => (
         <br />
         <Span1>Timothy</Span1><br />
         I.T. Manager
-      </p>
+      </P1>
     </Div2>
   </Section>
 )
@@ -30,18 +31,26 @@ const Section = styled.section`
   justify-content: center;
 `
 const Div1 = styled.div`
-  width: 25%;
+  width: 30%;
   display: flex;
   justify-content: center;
+  align-items: center;
 `
 const Div2 = styled.div`
-  width: 25%;
-  display: flex;
-  justify-content: center;
+  width: 30%;
+  line-height: 1.5;
 `
 const Img1 = styled(Img)`
   width: 80%;
+  height: 80%;
   border-radius: 5px;
+`
+const Img2 = styled(Img)`
+  width: 60%;
+  margin-bottom: 3rem;
+`
+const P1 = styled.p`
+  font-size: 1.6rem;
 `
 const Span1 = styled.span`
   font-family: "Pacifico";
