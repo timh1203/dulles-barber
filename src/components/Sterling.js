@@ -51,7 +51,7 @@ const Sterling = (props) => (
         Saturday 9-6:30PM <br />
         Sunday 10-5:30PM <br />
         <br />
-        703-430-3434
+        <Span1>(703)430-3434</Span1>
       </P1>
     </Div1>
     <Div3>
@@ -76,7 +76,7 @@ const Div1 = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: space-evenly;
-  width:40%;
+  width: 40%;
 `
 const Div2 = styled.div`
   margin: 2rem 0;
@@ -87,20 +87,26 @@ const Div3 = styled.div`
   justify-content: center;
   align-items: center;
   width:40%;
-  text-align: left;
+  /* text-align: left; */
 `
 const Div4 = styled.div`
-      margin-bottom: 3rem;
-      display: flex;
-      justify-content: space-evenly;
-      width: 100%;
-    `
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+`
 const P1 = styled.p`
   font-size: 2rem;
+  letter-spacing: 1.5px;
+  text-align: center;
 `
 const H1a = styled.h1`
-  text-shadow: 1px 1px 2px gray;
   text-decoration: underline;
+  text-shadow: 1px 1px 2px gray;
+`
+const Span1 = styled.span`
+  font-size: 2rem;
+  letter-spacing: 6px;
+  font-weight: 700;
 `
 const Img1 = styled(Img)`
   width: 70%;
@@ -124,6 +130,12 @@ const FaMapMarkedAlt1 = styled(FaMapMarkedAlt)`
   width: 50px;
   height: 50px;
   margin: 0 1rem;
+  &:hover {
+    transform: scale(1.10);
+    background: #3E9F56;
+    color: white;
+    border-radius: 5px;
+  }
 `
 const FaYelp1 = styled(FaYelp)`
   color: #D32323;
@@ -132,6 +144,12 @@ const FaYelp1 = styled(FaYelp)`
   width: 50px;
   height: 50px;
   margin: 0 1rem;
+  &:hover {
+    transform: scale(1.10);
+    background: #D32323;
+    color: white;
+    border-radius: 5px;
+  }
 `
 const FaFacebookSquare1 = styled(FaFacebookSquare)`
   color: #4267B2;
@@ -140,14 +158,26 @@ const FaFacebookSquare1 = styled(FaFacebookSquare)`
   width: 50px;
   height: 50px;
   margin: 0 1rem;
+  &:hover {
+    transform: scale(1.10);
+    background: #4267B2;
+    color: white;
+    border-radius: 5px;
+  }
 `
 const FaTwitterSquare1 = styled(FaTwitterSquare)`
-  color: white;
-  background: #1C9BEA;
+  background: white;
+  color: #1C9BEA;
   border-radius: 2px;
-  width: 50px;
-  height: 50px;
+  width: 51px;
+  height: 51px;
   margin: 0 1rem;
+  &:hover {
+    transform: scale(1.10);
+    color: white;
+    background: #1C9BEA;
+    border-radius: 5px;
+  }
 `
 
 export default Sterling

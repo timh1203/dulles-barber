@@ -51,7 +51,7 @@ const Ashburn = (props) => (
         Saturday 9-6PM <br />
         Sunday 10-5PM <br />
         <br />
-        703-858-0101
+        <Span1>(703)858-0101</Span1>
       </P1>
     </Div1>
     <Div3>
@@ -95,10 +95,17 @@ const Div4 = styled.div`
 `
 const P1 = styled.p`
   font-size: 2rem;
+  letter-spacing: 1.5px;
+  text-align: center;
 `
 const H1a = styled.h1`
   text-decoration: underline;
   text-shadow: 1px 1px 2px gray;
+`
+const Span1 = styled.span`
+  font-size: 2rem;
+  letter-spacing: 6px;
+  font-weight: 700;
 `
 const Img1 = styled(Img)`
   width: 70%;
@@ -122,6 +129,12 @@ const FaMapMarkedAlt1 = styled(FaMapMarkedAlt)`
   width: 50px;
   height: 50px;
   margin: 0 1rem;
+  &:hover {
+    transform: scale(1.10);
+    background: #3E9F56;
+    color: white;
+    border-radius: 5px;
+  }
 `
 const FaYelp1 = styled(FaYelp)`
   color: #D32323;
@@ -130,6 +143,12 @@ const FaYelp1 = styled(FaYelp)`
   width: 50px;
   height: 50px;
   margin: 0 1rem;
+  &:hover {
+    transform: scale(1.10);
+    background: #D32323;
+    color: white;
+    border-radius: 5px;
+  }
 `
 const FaFacebookSquare1 = styled(FaFacebookSquare)`
   color: #4267B2;
@@ -138,14 +157,26 @@ const FaFacebookSquare1 = styled(FaFacebookSquare)`
   width: 50px;
   height: 50px;
   margin: 0 1rem;
+  &:hover {
+    transform: scale(1.10);
+    background: #4267B2;
+    color: white;
+    border-radius: 5px;
+  }
 `
 const FaTwitterSquare1 = styled(FaTwitterSquare)`
-  color: white;
-  background: #1C9BEA;
+  background: white;
+  color: #1C9BEA;
   border-radius: 2px;
-  width: 50px;
-  height: 50px;
+  width: 51px;
+  height: 51px;
   margin: 0 1rem;
+  &:hover {
+    transform: scale(1.10);
+    color: white;
+    background: #1C9BEA;
+    border-radius: 5px;
+  }
 `
 
 export default Ashburn
