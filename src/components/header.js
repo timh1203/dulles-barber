@@ -21,7 +21,7 @@ const Img1 = styled(Img)`
   position: relative;
   top: 0;
   left: 0;
-  /* width: 100vw; */
+  width: 100%;
   height: 300px;
 `
 const Img2 = styled(Img)`

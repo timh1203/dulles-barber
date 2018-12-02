@@ -4,7 +4,7 @@ import styled from 'styled-components'
 const Notification = (props) => (
   <Div1>
     <P1>
-      Wishing you a happy holiday season from all of us at Dulles Barber!
+      Wishing you a happy holiday season from all of us at Dulles Barber! 🎄🍸🎉
     </P1>
   </Div1>
 )

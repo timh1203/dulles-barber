@@ -43,7 +43,8 @@ const Div2 = styled.div`
 const Img1 = styled(Img)`
   width: 80%;
   height: 80%;
-  border-radius: 5px;
+  border-radius: 10px;
+  box-shadow: 1px 1px 10px gray;
 `
 const Img2 = styled(Img)`
   width: 60%;

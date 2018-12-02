@@ -98,11 +98,13 @@ const P1 = styled.p`
 `
 const H1a = styled.h1`
   text-decoration: underline;
+  text-shadow: 1px 1px 2px gray;
 `
 const Img1 = styled(Img)`
   width: 70%;
   margin-bottom: 3rem;
   border-radius: 5px;
+  box-shadow: 1px 1px 5px black;
 `
 const Img2 = styled(Img)`
   width: 15%;

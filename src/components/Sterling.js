@@ -99,13 +99,14 @@ const P1 = styled.p`
   font-size: 2rem;
 `
 const H1a = styled.h1`
-  /* margin-bottom: 3rem; */
+  text-shadow: 1px 1px 2px gray;
   text-decoration: underline;
 `
 const Img1 = styled(Img)`
   width: 70%;
   margin-bottom: 3rem;
   border-radius: 5px;
+  box-shadow: 1px 1px 5px black;
 `
 const Img2 = styled(Img)`
   width: 15%;
