@@ -102,6 +102,11 @@ const P1 = styled.p`
 const H1a = styled.h1`
   text-decoration: underline;
   text-shadow: 1px 1px 2px gray;
+  background: #f2f2f2;
+  border-radius: 10px;
+  border: 2px solid white;
+  padding: 0.5rem 5rem;
+  box-shadow: 0 5px 5px gray;
 `
 const Span1 = styled.span`
   font-size: 2rem;
@@ -125,7 +130,7 @@ const Img4 = styled(Img)`
 `
 const FaMapMarkedAlt1 = styled(FaMapMarkedAlt)`
   color: #3E9F56;
-  background: white;
+  background: #f2f2f2;
   border-radius: 2px;
   width: 50px;
   height: 50px;
@@ -139,7 +144,7 @@ const FaMapMarkedAlt1 = styled(FaMapMarkedAlt)`
 `
 const FaYelp1 = styled(FaYelp)`
   color: #D32323;
-  background: white;
+  background: #f2f2f2;
   border-radius: 2px;
   width: 50px;
   height: 50px;
@@ -153,7 +158,7 @@ const FaYelp1 = styled(FaYelp)`
 `
 const FaFacebookSquare1 = styled(FaFacebookSquare)`
   color: #4267B2;
-  background: white;
+  background: #f2f2f2;
   border-radius: 2px;
   width: 50px;
   height: 50px;
@@ -166,8 +171,8 @@ const FaFacebookSquare1 = styled(FaFacebookSquare)`
   }
 `
 const FaTwitterSquare1 = styled(FaTwitterSquare)`
-  background: white;
   color: #1C9BEA;
+  background: #f2f2f2;
   border-radius: 2px;
   width: 51px;
   height: 51px;
