@@ -84,6 +84,7 @@ const GlobalStyles = createGlobalStyle`
     font-size: 62.5%;
     text-align: center;
     font-family: 'Quicksand';
+    background: #f2f2f2;
   }
   h1 {
     font-size: 3.6rem;
