@@ -7,6 +7,8 @@ import Sterling from '../components/Sterling'
 import About from '../components/About'
 import Contact from '../components/Contact'
 import Footer from '../components/Footer'
+import AshburnCarousel from '../components/AshburnCarousel'
+import SterlingCarousel from '../components/SterlingCarousel'
 
 const HomePage = (props) => (
   <Layout>
@@ -16,12 +18,18 @@ const HomePage = (props) => (
       mastercardImage={props.data.mastercardImage.childImageSharp.fluid}
       wifiImage={props.data.wifiImage.childImageSharp.fluid}
     />
+    <AshburnCarousel
+      ashburnCarousel={props.data.ashburnCarousel.edges}
+    />
     <Hr />
     <Sterling
       sterlingImage={props.data.sterlingImage.childImageSharp.fluid}
       visaImage={props.data.visaImage.childImageSharp.fluid}
       mastercardImage={props.data.mastercardImage.childImageSharp.fluid}
       wifiImage={props.data.wifiImage.childImageSharp.fluid}
+    />
+    <SterlingCarousel
+      sterlingCarousel={props.data.sterlingCarousel.edges}
     />
     <Hr />
     <About
@@ -39,7 +47,7 @@ const Hr = styled.hr`
   height: 3px;
   background: black;
   border-radius: 20px;
-  margin: 4rem auto;
+  margin: 10rem auto;
 `
 export const pageQuery = graphql`
   query {
@@ -92,6 +100,34 @@ export const pageQuery = graphql`
         }
       }
     },
+    ashburnCarousel: allFile(filter: {extension: {regex: "/(jpg)|(png)/"}, relativeDirectory: {eq: "ashburnCarousel"}}) {
+      edges {
+        node {
+          id
+          name
+          relativePath
+          childImageSharp {
+            fluid(maxWidth: 1000) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+      }
+    }
+    sterlingCarousel: allFile(filter: {extension: {regex: "/(jpg)|(png)/"}, relativeDirectory: {eq: "sterlingCarousel"}}) {
+      edges {
+        node {
+          id
+          name
+          relativePath
+          childImageSharp {
+            fluid(maxWidth: 1000) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+      }
+    }
   }
 `
 
