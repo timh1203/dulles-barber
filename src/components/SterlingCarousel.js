@@ -5,25 +5,63 @@ import "slick-carousel/slick/slick-theme.css"
 import styled from 'styled-components'
 import Img from 'gatsby-image'
 
-class AshburnCarousel extends React.Component {
+const NextArrow = (props) => {
+  const { className, style, onClick } = props;
+  return (
+    <div
+      className={className}
+      style={{
+        ...style,
+        display: "block",
+        background: "black",
+        borderRadius: "50%",
+      }}
+      onClick={onClick}
+    />
+  );
+}
+
+const PrevArrow = (props) => {
+  const { className, style, onClick } = props;
+  return (
+    <div
+      className={className}
+      style={{
+        ...style,
+        display: "block",
+        background: "black",
+        borderRadius: "50%",
+      }}
+      onClick={onClick}
+    />
+  );
+}
+class SterlingCarousel extends React.Component {
   render() {
     const settings = {
       dots: true,
       infinite: true,
       speed: 500,
       slidesToShow: 3,
-      slidesToScroll: 3
+      slidesToScroll: 3,
+      autoplay: true,
+      autoplaySpeed: 3000,
+      centerMode: true,
+      focusOnSelect: true,
+      nextArrow: <NextArrow />,
+      prevArrow: <PrevArrow />
+      // rows: 2,
+      // slidesPerRow: 1,
     }
 
     return (
       <Section>
         <Slider1 {...settings}>
           {
-            this.props.ashburnCarousel.map(pic => (
+            this.props.sterlingCarousel.map(pic => (
               <Div1 key={pic.node.id}>
                 <Img1
                   fluid={pic.node.childImageSharp.fluid}
-                  alt={pic.node.name}
                 />
               </Div1>
             ))
@@ -66,4 +104,4 @@ const Slider1 = styled(Slider)`
       color: black;
 `
 
-export default AshburnCarousel
+export default SterlingCarousel

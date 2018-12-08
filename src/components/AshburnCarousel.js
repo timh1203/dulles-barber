@@ -5,6 +5,37 @@ import "slick-carousel/slick/slick-theme.css"
 import styled from 'styled-components'
 import Img from 'gatsby-image'
 
+const NextArrow = (props) => {
+  const { className, style, onClick } = props;
+  return (
+    <div
+      className={className}
+      style={{
+        ...style,
+        display: "block",
+        background: "black",
+        borderRadius: "50%",
+      }}
+      onClick={onClick}
+    />
+  );
+}
+
+const PrevArrow = (props) => {
+  const { className, style, onClick } = props;
+  return (
+    <div
+      className={className}
+      style={{
+        ...style,
+        display: "block",
+        background: "black",
+        borderRadius: "50%",
+      }}
+      onClick={onClick}
+    />
+  );
+}
 class AshburnCarousel extends React.Component {
   render() {
     const settings = {
@@ -12,7 +43,15 @@ class AshburnCarousel extends React.Component {
       infinite: true,
       speed: 500,
       slidesToShow: 3,
-      slidesToScroll: 3
+      slidesToScroll: 3,
+      autoplay: true,
+      autoplaySpeed: 3000,
+      centerMode: true,
+      focusOnSelect: true,
+      nextArrow: <NextArrow />,
+      prevArrow: <PrevArrow />,
+      // rows: 2,
+      // slidesPerRow: 2,
     }
 
     return (
@@ -23,7 +62,6 @@ class AshburnCarousel extends React.Component {
               <Div1 key={pic.node.id}>
                 <Img1
                   fluid={pic.node.childImageSharp.fluid}
-                  alt={pic.node.name}
                 />
               </Div1>
             ))
@@ -35,35 +73,40 @@ class AshburnCarousel extends React.Component {
 }
 
 const Section = styled.section`
-      margin-top: 5rem;
-      display: flex;
-      align-items: center;
-      height: 100%;
+  margin-top: 5rem;
+  display: flex;
+  align-items: center;
+  height: 100%;
+  /* background: black; */
+  width: 90%;
+  border-radius: 10px;
+  margin: 0 auto;
+  padding: 1rem 0;
 `
 const Div1 = styled.div`
-      display: flex;
-      align-items: center;
-      height: 100%;
+  display: flex;
+  align-items: center;
+  height: 100%;
 `
 const Img1 = styled(Img)`
-      width: 95%;
-      height: 95%;
-      margin: 0 auto;
-      display: flex;
-      align-items: center;
-      border-radius: 5px;
-      box-shadow: 1px 1px 5px black;
+  width: 95%;
+  height: 95%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+  box-shadow: 1px 1px 5px black;
 `
 const Slider1 = styled(Slider)`
-      height: 100%;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      vertical-align: center;
-      text-align: center;
-      width: 80%;
-      margin: 0 auto;
-      color: black;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  vertical-align: center;
+  text-align: center;
+  width: 80%;
+  margin: 0 auto;
+  color: black;
 `
 
 export default AshburnCarousel
