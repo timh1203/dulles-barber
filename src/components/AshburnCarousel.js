@@ -43,7 +43,7 @@ class AshburnCarousel extends React.Component {
       infinite: true,
       speed: 500,
       slidesToShow: 3,
-      slidesToScroll: 3,
+      slidesToScroll: 1,
       autoplay: true,
       autoplaySpeed: 3000,
       centerMode: true,
@@ -73,15 +73,10 @@ class AshburnCarousel extends React.Component {
 }
 
 const Section = styled.section`
-  margin-top: 5rem;
-  display: flex;
-  align-items: center;
-  height: 100%;
-  /* background: black; */
-  width: 90%;
-  border-radius: 10px;
   margin: 0 auto;
-  padding: 1rem 0;
+  margin-top: 5rem;
+  height: 100%;
+  width: 90%;
 `
 const Div1 = styled.div`
   display: flex;

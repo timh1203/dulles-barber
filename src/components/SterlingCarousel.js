@@ -43,7 +43,7 @@ class SterlingCarousel extends React.Component {
       infinite: true,
       speed: 500,
       slidesToShow: 3,
-      slidesToScroll: 3,
+      slidesToScroll: 1,
       autoplay: true,
       autoplaySpeed: 3000,
       centerMode: true,
@@ -73,35 +73,35 @@ class SterlingCarousel extends React.Component {
 }
 
 const Section = styled.section`
-      margin-top: 5rem;
-      display: flex;
-      align-items: center;
-      height: 100%;
+  margin: 0 auto;
+  margin-top: 5rem;
+  height: 100%;
+  width: 90%;
 `
 const Div1 = styled.div`
-      display: flex;
-      align-items: center;
-      height: 100%;
+  display: flex;
+  align-items: center;
+  height: 100%;
 `
 const Img1 = styled(Img)`
-      width: 95%;
-      height: 95%;
-      margin: 0 auto;
-      display: flex;
-      align-items: center;
-      border-radius: 5px;
-      box-shadow: 1px 1px 5px black;
+  width: 95%;
+  height: 95%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+  box-shadow: 1px 1px 5px black;
 `
 const Slider1 = styled(Slider)`
-      height: 100%;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      vertical-align: center;
-      text-align: center;
-      width: 80%;
-      margin: 0 auto;
-      color: black;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  vertical-align: center;
+  text-align: center;
+  width: 80%;
+  margin: 0 auto;
+  color: black;
 `
 
 export default SterlingCarousel
