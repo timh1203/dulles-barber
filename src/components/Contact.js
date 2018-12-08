@@ -5,14 +5,16 @@ const About = () => (
   <Section>
     <Form1 action="https://formspree.io/dullesbarber@gmail.com" method="POST">
       <Ul1>
+        <Li1>
+          <H1a>Contact Us</H1a>
+          <p>Your email address is <Span1>never</Span1> sold or spammed.</p>
+          <p>We <Span1>only</Span1> use it to answer your questions/comments.</p>
+        </Li1>
         <li>
           <input type="hidden" name="From" value="dullesbarber.com" />
         </li>
         <li>
           <input type="hidden" name="_gotcha" />
-        </li>
-        <li>
-          <H1a>Email us!</H1a>
         </li>
         <li>
           <Input1 type="text" name="First Name" placeholder="First Name" required />
@@ -48,44 +50,64 @@ const Form1 = styled.form`
   box-shadow: 0 5px 5px gray;
 `
 const H1a = styled.h1`
-  font-size: 2rem;
+  font-size: 3.6rem;
+  font-family: 'Lato';
   text-shadow: 1px 1px 2px gray;
-  margin: 1rem auto;
+  text-align: center;
+  margin-top: 1rem;
 `
 const Ul1 = styled.ul`
 `
+const Li1 = styled.ul`
+  line-height: 2;
+`
 const Input1 = styled.input`
-  width: 50%;
+  width: 60%;
   font-size: 1.6rem;
   padding: 1rem;
   margin: 1rem;
   border-radius: 2px;
+  font-family: 'Quicksand';
+  &:focus {
+    box-shadow: 0 0 20px #82DBFA;
+  }
   `
 const Textarea1 = styled.textarea`
-  width: 50%;
+  width: 60%;
   height: 200px;
   font-size: 1.6rem;
   padding: 1rem;
   margin: 1rem;
   border-radius: 2px;
+  font-family: 'Quicksand';
+  &:focus {
+    box-shadow: 0 0 20px #82DBFA;
+  }
 `
 const Button1 = styled.button`
   width: 20%;
   font-size: 1.6rem;
   padding: 1rem;
   margin: 1rem;
-  border-radius: 2px;
-  background: #3E9F56;
+  border-radius: 5px;
+  background: #82DBFA;
   color: white;
   border: 2px solid black;
+  font-weight: 700;
+  text-shadow: 1px 1px 3px black;
   &:hover {
     cursor: pointer;
     background: white;
     color: black;
     transform: scale(1.10);
     border-radius: 5px;
-    border: 2px solid #3E9F56;
+    text-shadow: 1px 1px 3px #82DBFA;
+    border: 2px solid #82DBFA;
   }
+`
+const Span1 = styled.span`
+  text-decoration: underline;
+  font-weight: 600;
 `
 
 export default About
