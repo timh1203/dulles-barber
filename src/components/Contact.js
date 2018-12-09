@@ -48,6 +48,9 @@ const Form1 = styled.form`
   border-radius: 10px;
   border: 2px solid white;
   box-shadow: 0 5px 5px gray;
+  @media (max-width: 768px) {
+    width: 90%;
+  }
 `
 const H1a = styled.h1`
   font-size: 3.6rem;
@@ -71,7 +74,10 @@ const Input1 = styled.input`
   &:focus {
     box-shadow: 0 0 20px #82DBFA;
   }
-  `
+  @media (max-width: 768px) {
+    width: 80%;
+  }
+`
 const Textarea1 = styled.textarea`
   width: 60%;
   height: 200px;
@@ -82,6 +88,9 @@ const Textarea1 = styled.textarea`
   font-family: 'Quicksand';
   &:focus {
     box-shadow: 0 0 20px #82DBFA;
+  }
+  @media (max-width: 768px) {
+    width: 80%;
   }
 `
 const Button1 = styled.button`
