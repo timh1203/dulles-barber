@@ -37,10 +37,16 @@ const Div1 = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
+  @media (max-width: 768px) {
+    width: 50%;
+  }
 `
 const Div2 = styled.div`
   width: 30%;
   line-height: 1.5;
+  @media (max-width: 768px) {
+    width: 40%;
+  }
 `
 const Div3 = styled.div`
   text-align: center;
@@ -50,6 +56,10 @@ const Img1 = styled(Img)`
   height: 80%;
   border-radius: 10px;
   box-shadow: 1px 1px 10px gray;
+  @media (max-width: 768px) {
+    /* width: 100%; */
+    height: 50%;
+  }
 `
 const Img2 = styled(Img)`
   width: 60%;
