@@ -31,6 +31,10 @@ const Section = styled.section`
   text-align: left;
   display: flex;
   justify-content: center;
+  @media (max-width: 400px) {
+    flex-direction: column;
+    align-items: center;
+  }
 `
 const Div1 = styled.div`
   width: 30%;
@@ -40,12 +44,18 @@ const Div1 = styled.div`
   @media (max-width: 768px) {
     width: 50%;
   }
+  @media (max-width: 400px) {
+    margin-bottom: 2rem;
+  }
 `
 const Div2 = styled.div`
   width: 30%;
   line-height: 1.5;
   @media (max-width: 768px) {
     width: 40%;
+  }
+  @media (max-width: 400px) {
+    width: 80%;
   }
 `
 const Div3 = styled.div`
@@ -57,13 +67,15 @@ const Img1 = styled(Img)`
   border-radius: 10px;
   box-shadow: 1px 1px 10px gray;
   @media (max-width: 768px) {
-    /* width: 100%; */
     height: 50%;
   }
 `
 const Img2 = styled(Img)`
   width: 60%;
   margin-bottom: 3rem;
+  @media (max-width: 400px) {
+    width: 90%;
+  }
 `
 const P1 = styled.p`
   font-size: 1.6rem;
