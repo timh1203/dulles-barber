@@ -49,9 +49,18 @@ class SterlingCarousel extends React.Component {
       centerMode: true,
       focusOnSelect: true,
       nextArrow: <NextArrow />,
-      prevArrow: <PrevArrow />
+      prevArrow: <PrevArrow />,
       // rows: 2,
       // slidesPerRow: 1,
+      responsive: [
+        {
+          breakpoint: 769,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1
+          }
+        },
+      ],
     }
 
     return (
@@ -91,6 +100,10 @@ const Img1 = styled(Img)`
   align-items: center;
   border-radius: 5px;
   box-shadow: 1px 1px 5px black;
+  @media (max-width: 768px) {
+    width: 70%;
+    height: 70%;
+  }
 `
 const Slider1 = styled(Slider)`
   height: 100%;
