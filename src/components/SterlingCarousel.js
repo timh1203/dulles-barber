@@ -60,6 +60,14 @@ class SterlingCarousel extends React.Component {
             slidesToScroll: 1
           }
         },
+        {
+          breakpoint: 400,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            dots: false
+          }
+        },
       ],
     }
 
@@ -103,6 +111,10 @@ const Img1 = styled(Img)`
   @media (max-width: 768px) {
     width: 70%;
     height: 70%;
+  }
+  @media (max-width: 400px) {
+    width: 95%;
+    height: 95%;
   }
 `
 const Slider1 = styled(Slider)`
