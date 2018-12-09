@@ -70,6 +70,11 @@ const Section = styled.section`
   display: flex;
   justify-content: center;
   line-height: 1.4;
+  @media (max-width: 400px) {
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+  }
 `
 const Div1 = styled.div`
   display: flex;
@@ -77,9 +82,16 @@ const Div1 = styled.div`
   align-items: center;
   justify-content: space-evenly;
   width: 40%;
+  @media (max-width: 400px) {
+    width: 80%;
+  }
 `
 const Div2 = styled.div`
   margin: 2rem 0;
+  @media (max-width: 400px) {
+    display: flex;
+    margin-bottom: 2rem;
+  }
 `
 const Div3 = styled.div`
   display: flex;
@@ -87,6 +99,10 @@ const Div3 = styled.div`
   align-items: center;
   justify-content: center;
   width: 40%;
+  @media (max-width: 400px) {
+    width: 90%;
+    margin-top: 2rem;
+  }
 `
 const Div4 = styled.div`
   display: flex;
@@ -97,6 +113,9 @@ const P1 = styled.p`
   font-size: 2rem;
   letter-spacing: 1.5px;
   text-align: center;
+  @media (max-width: 400px) {
+    margin-bottom: 1rem;
+  }
 `
 const H1a = styled.h1`
   text-decoration: underline;
@@ -106,6 +125,9 @@ const H1a = styled.h1`
   border: 2px solid white;
   padding: 0.5rem 5rem;
   box-shadow: 0 5px 5px gray;
+  @media (max-width: 400px) {
+    margin-bottom: 2rem;
+  }
 `
 const Span1 = styled.span`
   font-size: 2rem;
@@ -117,15 +139,27 @@ const Img1 = styled(Img)`
   margin-bottom: 3rem;
   border-radius: 5px;
   box-shadow: 1px 1px 5px black;
+  @media (max-width: 400px) {
+    width: 80%;
+  }
 `
 const Img2 = styled(Img)`
   width: 15%;
+  @media (max-width: 400px) {
+    width: 20%;
+  }
 `
 const Img3 = styled(Img)`
   width: 15%;
+  @media (max-width: 400px) {
+    width: 20%;
+  }
 `
 const Img4 = styled(Img)`
   width: 15%;
+  @media (max-width: 400px) {
+    width: 20%;
+  }
 `
 const FaMapMarkedAlt1 = styled(FaMapMarkedAlt)`
   color: #3E9F56;
