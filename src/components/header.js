@@ -34,6 +34,11 @@ const Img2 = styled(Img)`
     bottom: 300px;
     left: 80px;
   }
+  @media (max-width: 400px) {
+    width: 60%;
+    left: 20px;
+    bottom: 290px;
+  }
 `
 
 export default Header
