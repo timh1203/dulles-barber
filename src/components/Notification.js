@@ -16,6 +16,9 @@ const Div1 = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
+  @media (max-width: 400px) {
+    padding: 1rem;
+  }
 `
 const P1 = styled.div`
   font-size: 2rem;
