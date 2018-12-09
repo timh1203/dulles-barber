@@ -8,7 +8,7 @@ const About = () => (
         <Li1>
           <H1a>Contact Us</H1a>
           <p>Your email address is <Span1>never</Span1> sold or spammed.</p>
-          <p>We <Span1>only</Span1> use it to answer your questions/comments.</p>
+          <p>We <Span1>only</Span1> use it to answer your questions and comments.</p>
         </Li1>
         <li>
           <input type="hidden" name="From" value="dullesbarber.com" />
@@ -63,6 +63,11 @@ const Ul1 = styled.ul`
 `
 const Li1 = styled.ul`
   line-height: 2;
+  @media (max-width: 400px) {
+    width: 100%;
+    margin: 0 auto;
+    line-height: 1.6;
+  }
 `
 const Input1 = styled.input`
   width: 60%;
