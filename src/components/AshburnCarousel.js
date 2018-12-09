@@ -60,6 +60,14 @@ class AshburnCarousel extends React.Component {
             slidesToScroll: 1
           }
         },
+        {
+          breakpoint: 400,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            dots: false
+          }
+        },
       ],
     }
 
@@ -83,7 +91,6 @@ class AshburnCarousel extends React.Component {
 
 const Section = styled.section`
   margin: 0 auto;
-  margin-top: 5rem;
   height: 100%;
   width: 90%;
 `
@@ -103,6 +110,10 @@ const Img1 = styled(Img)`
   @media (max-width: 768px) {
     width: 70%;
     height: 70%;
+  }
+  @media (max-width: 400px) {
+    width: 95%;
+    height: 95%;
   }
 `
 const Slider1 = styled(Slider)`

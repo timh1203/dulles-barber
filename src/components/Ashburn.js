@@ -74,6 +74,7 @@ const Section = styled.section`
     text-align: center;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 2rem;
   }
 `
 const Div1 = styled.div`

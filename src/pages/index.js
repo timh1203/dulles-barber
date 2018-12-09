@@ -48,6 +48,10 @@ const Hr = styled.hr`
   background: black;
   border-radius: 20px;
   margin: 10rem auto;
+  @media (max-width: 400px) {
+    width: 50%;
+    margin: 8rem auto;
+  }
 `
 export const pageQuery = graphql`
   query {
