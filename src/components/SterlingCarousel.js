@@ -91,7 +91,6 @@ class SterlingCarousel extends React.Component {
 
 const Section = styled.section`
   margin: 0 auto;
-  margin-top: 5rem;
   height: 100%;
   width: 90%;
 `

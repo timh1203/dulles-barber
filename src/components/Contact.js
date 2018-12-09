@@ -37,13 +37,10 @@ const About = () => (
 )
 
 const Section = styled.section`
-  text-align: left;
-  display: flex;
-  justify-content: center;
 `
 const Form1 = styled.form`
-  margin: 0 auto;
   text-align: center;
+  margin: 0 auto;
   width: 60%;
   border-radius: 10px;
   border: 2px solid white;

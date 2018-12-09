@@ -70,6 +70,7 @@ const Section = styled.section`
   display: flex;
   justify-content: center;
   line-height: 1.4;
+  margin-bottom: 5rem;
   @media (max-width: 400px) {
     text-align: center;
     flex-direction: column;
@@ -84,7 +85,7 @@ const Div1 = styled.div`
   justify-content: space-evenly;
   width: 40%;
   @media (max-width: 400px) {
-    width: 80%;
+    width: 90%;
   }
 `
 const Div2 = styled.div`

@@ -47,10 +47,13 @@ const Hr = styled.hr`
   height: 3px;
   background: black;
   border-radius: 20px;
-  margin: 10rem auto;
+  margin: 8rem auto;
+  @media (max-width: 769px) {
+    width: 40%;
+    margin: 5rem auto;
+  }
   @media (max-width: 400px) {
     width: 50%;
-    margin: 8rem auto;
   }
 `
 export const pageQuery = graphql`
