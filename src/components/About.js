@@ -18,10 +18,10 @@ const About = (props) => (
         <br />
         We welcome you to visit us and thank you for checking us out! If we can make your experience better in any way, please let us know.<br />
         <br />
-        <Div3>
-          <Span1>Timothy</Span1><br />
+        <Span1>
+          <Span2>Timothy</Span2><br />
           I.T. Manager
-        </Div3>
+        </Span1>
       </P1>
     </Div2>
   </Section>
@@ -58,9 +58,6 @@ const Div2 = styled.div`
     width: 80%;
   }
 `
-const Div3 = styled.div`
-  text-align: center;
-`
 const Img1 = styled(Img)`
   width: 80%;
   height: 80%;
@@ -81,6 +78,8 @@ const P1 = styled.p`
   font-size: 1.6rem;
 `
 const Span1 = styled.span`
+`
+const Span2 = styled.span`
   font-family: "Pacifico";
 `
 
