@@ -8,7 +8,7 @@ import About from '../components/About'
 import Contact from '../components/Contact'
 import Footer from '../components/Footer'
 import AshburnCarousel from '../components/AshburnCarousel'
-// import SterlingCarousel from '../components/SterlingCarousel'
+import SterlingCarousel from '../components/SterlingCarousel'
 
 const HomePage = (props) => (
   <Layout>
@@ -28,9 +28,9 @@ const HomePage = (props) => (
       mastercardImage={props.data.mastercardImage.childImageSharp.fluid}
       wifiImage={props.data.wifiImage.childImageSharp.fluid}
     />
-    {/* <SterlingCarousel
+    <SterlingCarousel
       sterlingCarousel={props.data.sterlingCarousel.edges}
-    /> */}
+    />
     <Hr />
     <About
       profileImage={props.data.profileImage.childImageSharp.fluid}
@@ -120,7 +120,7 @@ export const pageQuery = graphql`
           }
         }
       }
-    }
+    },
     sterlingCarousel: allFile(filter: {extension: {regex: "/(jpg)|(png)/"}, relativeDirectory: {eq: "sterlingCarousel"}}) {
       edges {
         node {
