@@ -25,10 +25,10 @@ const Img1 = styled(Img)`
   height: 300px;
 `
 const Img2 = styled(Img)`
-  width: 30%;
+  width: 20%;
   position: absolute;
-  bottom: 275px;
-  left: 250px;
+  bottom: 240px;
+  left: 280px;
   @media (max-width: 768px) {
     width: 50%;
     bottom: 300px;

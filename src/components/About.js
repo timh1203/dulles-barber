@@ -18,11 +18,11 @@ const About = (props) => (
         <br />
         We welcome you to visit us and thank you for checking us out! If we can make your experience better in any way, please let us know.<br />
         <br />
-        <Span1>
-          <Span2>Timothy</Span2><br />
-          I.T. Manager
-        </Span1>
       </P1>
+      <Span1>
+        <Span2>Timothy</Span2><br />
+        I.T. Manager
+      </Span1>
     </Div2>
   </Section>
 )
@@ -76,8 +76,10 @@ const Img2 = styled(Img)`
 `
 const P1 = styled.p`
   font-size: 1.6rem;
-`
-const Span1 = styled.span`
+  `
+const Span1 = styled.p`
+  font-size: 1.6rem;
+  text-align: center;
 `
 const Span2 = styled.span`
   font-family: "Pacifico";
