@@ -3,7 +3,7 @@ import styled from 'styled-components'
 
 const Footer = () => (
   <Section>
-    <p>Copyright © 2018 Dulles Barber</p>
+    <p>Copyright © 2019 Dulles Barber</p>
   </Section>
 )
 

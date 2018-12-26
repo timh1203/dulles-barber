@@ -4,7 +4,7 @@ import styled from 'styled-components'
 const Notification = (props) => (
   <Div1>
     <P1>
-      We will be closed December 25th and January 1st! Happy Holidays!
+      We will be closed January 1st! Have a marvelous and safe New Year's!
     </P1>
   </Div1>
 )
