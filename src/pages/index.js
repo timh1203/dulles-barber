@@ -114,7 +114,7 @@ export const pageQuery = graphql`
           name
           relativePath
           childImageSharp {
-            fluid(maxWidth: 1000) {
+            fluid(maxWidth: 1000, maxHeight: 1000) {
               ...GatsbyImageSharpFluid
             }
           }
@@ -128,7 +128,7 @@ export const pageQuery = graphql`
           name
           relativePath
           childImageSharp {
-            fluid(maxWidth: 1000) {
+            fluid(maxWidth: 1000, maxHeight: 1000) {
               ...GatsbyImageSharpFluid
             }
           }

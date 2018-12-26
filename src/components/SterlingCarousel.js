@@ -102,7 +102,7 @@ const Div1 = styled.div`
 const Img1 = styled(Img)`
   width: 95%;
   height: 95%;
-  margin: 0 auto;
+  margin: 2rem auto;
   display: flex;
   align-items: center;
   border-radius: 5px;

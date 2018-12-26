@@ -100,9 +100,9 @@ const Div1 = styled.div`
   height: 100%;
 `
 const Img1 = styled(Img)`
-  width: 95%;
-  height: 95%;
-  margin: 0 auto;
+  width: 98%;
+  height: 98%;
+  margin: 1rem auto;
   display: flex;
   align-items: center;
   border-radius: 5px;
