@@ -131,19 +131,18 @@ const Button1 = styled.button`
   padding: 1rem;
   margin: 1rem;
   border-radius: 5px;
-  background: #82DBFA;
+  background: #DAA520;
   color: white;
   border: 2px solid black;
   font-weight: 700;
   text-shadow: 1px 1px 3px black;
   &:hover {
     cursor: pointer;
-    background: white;
-    color: black;
+    background: black;
     transform: scale(1.10);
     border-radius: 5px;
-    text-shadow: 1px 1px 3px #82DBFA;
-    border: 2px solid #82DBFA;
+    text-shadow: 1px 1px 3px #DAA520;
+    border: 2px solid #DAA520;
   }
 `
 const Span1 = styled.span`
