@@ -5,67 +5,72 @@ import { links } from '../assets/data/data'
 import { FaMapMarkedAlt, FaYelp, FaFacebookSquare, FaTwitterSquare } from 'react-icons/fa'
 
 const Sterling = (props) => (
-  <Section id="sterling">
-    <Div1>
-      <H1a>Sterling</H1a>
-      <Div2>
-        <a
-          href={links.gmaps_sterling.url}
-          alt={links.gmaps_sterling.alt}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <FaMapMarkedAlt1 />
-        </a>
-        <a
-          href={links.yelp_sterling.url}
-          alt={links.yelp_sterling.alt}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <FaYelp1 />
-        </a>
-        <a
-          href={links.fb_sterling.url}
-          alt={links.fb_sterling.alt}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <FaFacebookSquare1 />
-        </a>
-        <a
-          href={links.twitter.url}
-          alt={links.twitter.alt}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <FaTwitterSquare1 />
-        </a>
-      </Div2>
-      <P1>
-        Cascades Marketplace <br />
-        21000 Southbank Street Ste 108 <br />
-        Sterling, VA 20165 <br />
-        <br />
-        Monday–Friday 9-7PM <br />
-        Saturday 9-6:30PM <br />
-        Sunday 10-5:30PM <br />
-        <br />
-        <Span1>(703)430-3434</Span1>
-      </P1>
-    </Div1>
-    <Div3>
-      <Img1 fluid={props.sterlingImage} />
-      <Div4>
-        <Img2 fluid={props.visaImage} />
-        <Img3 fluid={props.mastercardImage} />
-        <Img4 fluid={props.wifiImage} />
-      </Div4>
-    </Div3>
+  <Section>
+    <Hr id="sterling" />
+    <Div>
+      <Div1>
+        <H1a>Sterling</H1a>
+        <Div2>
+          <a
+            href={links.gmaps_sterling.url}
+            alt={links.gmaps_sterling.alt}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FaMapMarkedAlt1 />
+          </a>
+          <a
+            href={links.yelp_sterling.url}
+            alt={links.yelp_sterling.alt}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FaYelp1 />
+          </a>
+          <a
+            href={links.fb_sterling.url}
+            alt={links.fb_sterling.alt}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FaFacebookSquare1 />
+          </a>
+          <a
+            href={links.twitter.url}
+            alt={links.twitter.alt}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FaTwitterSquare1 />
+          </a>
+        </Div2>
+        <P1>
+          Cascades Marketplace <br />
+          21000 Southbank Street Ste 108 <br />
+          Sterling, VA 20165 <br />
+          <br />
+          Monday–Friday 9-7PM <br />
+          Saturday 9-6:30PM <br />
+          Sunday 10-5:30PM <br />
+          <br />
+          <Span1>(703)430-3434</Span1>
+        </P1>
+      </Div1>
+      <Div3>
+        <Img1 fluid={props.sterlingImage} />
+        <Div4>
+          <Img2 fluid={props.visaImage} />
+          <Img3 fluid={props.mastercardImage} />
+          <Img4 fluid={props.wifiImage} />
+        </Div4>
+      </Div3>
+    </Div>
   </Section>
 )
 
 const Section = styled.section`
+`
+const Div = styled.div`
   text-align: left;
   display: flex;
   justify-content: center;
@@ -110,6 +115,20 @@ const Div4 = styled.div`
   display: flex;
   justify-content: space-evenly;
   width: 100%;
+`
+const Hr = styled.hr`
+  width: 20%;
+  height: 3px;
+  background: black;
+  border-radius: 20px;
+  margin: 4rem auto;
+  @media (max-width: 769px) {
+    width: 40%;
+    margin: 5rem auto;
+  }
+  @media (max-width: 400px) {
+    width: 50%;
+  }
 `
 const P1 = styled.p`
   font-size: 2rem;
