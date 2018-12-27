@@ -146,19 +146,19 @@ const Img1 = styled(Img)`
   }
 `
 const Img2 = styled(Img)`
-  width: 15%;
+  width: 10%;
   @media (max-width: 400px) {
     width: 20%;
   }
 `
 const Img3 = styled(Img)`
-  width: 15%;
+  width: 10%;
   @media (max-width: 400px) {
     width: 20%;
   }
 `
 const Img4 = styled(Img)`
-  width: 15%;
+  width: 10%;
   @media (max-width: 400px) {
     width: 20%;
   }
