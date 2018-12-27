@@ -2,7 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 
 const About = () => (
-  <Section>
+  <Section id="contact">
     <Form1 action="https://formspree.io/dullesbarber@gmail.com" method="POST">
       <Ul1>
         <Li1>

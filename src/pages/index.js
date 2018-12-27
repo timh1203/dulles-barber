@@ -1,6 +1,5 @@
 import React from 'react'
 import { graphql } from 'gatsby'
-import styled from 'styled-components'
 import Layout from '../components/layout'
 import Ashburn from '../components/Ashburn'
 import Sterling from '../components/Sterling'
@@ -21,7 +20,6 @@ const HomePage = (props) => (
     <AshburnCarousel
       ashburnCarousel={props.data.ashburnCarousel.edges}
     />
-    <Hr />
     <Sterling
       sterlingImage={props.data.sterlingImage.childImageSharp.fluid}
       visaImage={props.data.visaImage.childImageSharp.fluid}
@@ -31,31 +29,15 @@ const HomePage = (props) => (
     <SterlingCarousel
       sterlingCarousel={props.data.sterlingCarousel.edges}
     />
-    <Hr />
     <About
       profileImage={props.data.profileImage.childImageSharp.fluid}
       logoLongImage={props.data.logoLongImage.childImageSharp.fluid}
     />
-    <Hr />
     <Contact />
     <Footer />
   </Layout>
 )
 
-const Hr = styled.hr`
-  width: 20%;
-  height: 3px;
-  background: black;
-  border-radius: 20px;
-  margin: 8rem auto;
-  @media (max-width: 769px) {
-    width: 40%;
-    margin: 5rem auto;
-  }
-  @media (max-width: 400px) {
-    width: 50%;
-  }
-`
 export const pageQuery = graphql`
   query {
     ashburnImage: file(relativePath: { eq: "ashburn.jpg" }) {

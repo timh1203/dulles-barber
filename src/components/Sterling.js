@@ -5,7 +5,7 @@ import { links } from '../assets/data/data'
 import { FaMapMarkedAlt, FaYelp, FaFacebookSquare, FaTwitterSquare } from 'react-icons/fa'
 
 const Sterling = (props) => (
-  <Section>
+  <Section id="sterling">
     <Div1>
       <H1a>Sterling</H1a>
       <Div2>

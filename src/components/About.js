@@ -3,7 +3,7 @@ import styled from 'styled-components'
 import Img from 'gatsby-image'
 
 const About = (props) => (
-  <Section>
+  <Section id="about">
     <Div1>
       <Img1 fluid={props.profileImage} />
     </Div1>
