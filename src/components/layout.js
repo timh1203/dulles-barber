@@ -139,20 +139,6 @@ const GlobalStyles = createGlobalStyle`
 `
 const Wrapper = styled.div`
 `
-const Hr = styled.hr`
-  width: 20%;
-  height: 3px;
-  background: black;
-  border-radius: 20px;
-  margin: 4rem auto;
-  @media (max-width: 769px) {
-    width: 40%;
-    margin: 5rem auto;
-  }
-  @media (max-width: 400px) {
-    width: 50%;
-  }
-`
 
 Layout.propTypes = {
   children: PropTypes.node.isRequired,
