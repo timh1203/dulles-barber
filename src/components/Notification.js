@@ -6,7 +6,7 @@ const Notification = (props) => (
     <P1>
       We will be closed on New Year's Day, January 1st!
       <br />
-      Have an safe, unforgettable time!
+      Have a safe, unforgettable time!
     </P1>
   </Div1>
 )
