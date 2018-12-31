@@ -16,7 +16,7 @@ const About = (props) => (
           <br />
           We provide a wide range of services for adults and children including beard trims to skin fades. Enjoy our big screen televisions and magazine varieties while we meticulously apply our craft for each and every patron.<br />
           <br />
-          After your haircut, we offer a complimentary mini-massage and hot towel and our clients always leave feeling great.<br />
+          After your haircut, we offer a complimentary mini-massage and hot towel to give an unforgetabble experience of always leaving the shop feeling like a new person.<br />
           <br />
           We welcome you to visit us and thank you for checking us out! If we can make your experience better in any way, please let us know.<br />
           <br />

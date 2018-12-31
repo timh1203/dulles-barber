@@ -6,8 +6,8 @@ import Sterling from '../components/Sterling'
 import About from '../components/About'
 import Contact from '../components/Contact'
 import Footer from '../components/Footer'
-import AshburnCarousel from '../components/AshburnCarousel'
-import SterlingCarousel from '../components/SterlingCarousel'
+// import AshburnCarousel from '../components/AshburnCarousel'
+// import SterlingCarousel from '../components/SterlingCarousel'
 
 const HomePage = (props) => (
   <Layout>
@@ -17,18 +17,18 @@ const HomePage = (props) => (
       mastercardImage={props.data.mastercardImage.childImageSharp.fluid}
       wifiImage={props.data.wifiImage.childImageSharp.fluid}
     />
-    <AshburnCarousel
+    {/* <AshburnCarousel
       ashburnCarousel={props.data.ashburnCarousel.edges}
-    />
+    /> */}
     <Sterling
       sterlingImage={props.data.sterlingImage.childImageSharp.fluid}
       visaImage={props.data.visaImage.childImageSharp.fluid}
       mastercardImage={props.data.mastercardImage.childImageSharp.fluid}
       wifiImage={props.data.wifiImage.childImageSharp.fluid}
     />
-    <SterlingCarousel
+    {/* <SterlingCarousel
       sterlingCarousel={props.data.sterlingCarousel.edges}
-    />
+    /> */}
     <About
       profileImage={props.data.profileImage.childImageSharp.fluid}
       logoLongImage={props.data.logoLongImage.childImageSharp.fluid}

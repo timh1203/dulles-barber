@@ -4,7 +4,9 @@ import styled from 'styled-components'
 const Notification = (props) => (
   <Div1>
     <P1>
-      We will be closed January 1st! Have a wonderful New Year's!
+      We will be closed on New Year's Day, January 1st!
+      <br />
+      Have an safe, unforgettable time!
     </P1>
   </Div1>
 )
@@ -12,7 +14,6 @@ const Notification = (props) => (
 const Div1 = styled.div`
   background: #DAA520;
   color: white;
-  height: 40px;
   display: flex;
   align-items: center;
   justify-content: center;
