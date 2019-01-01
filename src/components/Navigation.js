@@ -63,7 +63,10 @@ const Button1 = styled.button`
     border-radius: 5px;
     text-shadow: 1px 1px 3px #DAA520;
     border: 2px solid #DAA520;
-}
+  }
+  @media (max-width: 769px) {
+    width: 12%;
+  }
 `
 const A1 = styled.a`
   color: white;
