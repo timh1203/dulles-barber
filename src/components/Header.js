@@ -30,9 +30,9 @@ const Img2 = styled(Img)`
   bottom: 240px;
   left: 280px;
   @media (max-width: 768px) {
-    width: 50%;
-    bottom: 300px;
-    left: 80px;
+    width: 35%;
+    bottom: 180px;
+    left: 140px;
   }
   @media (max-width: 400px) {
     width: 60%;
