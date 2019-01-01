@@ -67,6 +67,10 @@ const Button1 = styled.button`
   @media (max-width: 769px) {
     width: 12%;
   }
+  @media (max-width: 400px) {
+    font-size: 1.2rem;
+    width: 20%;
+  }
 `
 const A1 = styled.a`
   color: white;
