@@ -89,6 +89,9 @@ const Div1 = styled.div`
   align-items: center;
   justify-content: space-evenly;
   width: 40%;
+  @media (max-width: 768px) {
+    width: 50%;
+  }
   @media (max-width: 400px) {
     width: 90%;
   }
@@ -106,6 +109,9 @@ const Div3 = styled.div`
   justify-content: center;
   align-items: center;
   width:40%;
+  @media (max-width: 768px) {
+    width: 50%;
+  }
   @media (max-width: 400px) {
     width: 90%;
     margin-top: 2rem;
