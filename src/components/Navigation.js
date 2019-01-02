@@ -56,6 +56,7 @@ const Button1 = styled.button`
   border: 2px solid black;
   font-weight: 700;
   text-shadow: 1px 1px 3px black;
+  text-align: center;
   &:hover {
     cursor: pointer;
     background: black;
@@ -68,7 +69,7 @@ const Button1 = styled.button`
     width: 12%;
   }
   @media (max-width: 400px) {
-    font-size: 1.2rem;
+    font-size: 1rem;
     width: 20%;
   }
 `
