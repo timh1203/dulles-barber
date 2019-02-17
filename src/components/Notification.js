@@ -4,7 +4,7 @@ import styled from 'styled-components'
 const Notification = (props) => (
   <Div1>
     <P1>
-      Look for our ads in Valpak and Clipper Magazine!
+      Look for our ads with Valpak!
     </P1>
   </Div1>
 )
