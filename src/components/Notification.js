@@ -4,7 +4,11 @@ import styled from 'styled-components'
 const Notification = (props) => (
   <Div1>
     <P1>
-      Look for our ads with Valpak!
+      We will be closed on Easter Sunday April 21st, 2019!
+      <br />Happy Holidays! &nbsp;
+      <span role="img" aria-label="icon">🎉</span>
+      <span role="img" aria-label="icon">🐰</span>
+      <span role="img" aria-label="icon">🥚</span>
     </P1>
   </Div1>
 )
