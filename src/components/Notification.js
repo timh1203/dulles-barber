@@ -4,8 +4,7 @@ import styled from 'styled-components';
 const Notification = props => (
 	<Div1>
 		<P1>
-			We will be closed on Memorial Day (Monday the 27th)! Happy holidays!
-			{/* Ready for the upcoming season? Look for our savings ad in Valpak! */}
+			Need a cut to beat the summer heat? Look for savings in Valpak!
 			{/* <span role="img" aria-label="icon">🎉</span> */}
 			{/* <span role="img" aria-label="icon">🐰</span> */}
 			{/* <span role="img" aria-label="icon">🥚</span> */}
