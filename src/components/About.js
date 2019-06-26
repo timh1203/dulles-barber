@@ -14,7 +14,9 @@ const About = (props) => (
         <P1>
           Dulles Barber is a privately owned family business that provides professional haircuts in the Loudoun County area. Our seasoned barbers have more than 10 years of experience and also diligently mentor newer barbers. <br />
           <br />
-          We provide a wide range of services for adults and children including beard trims to skin fades. Enjoy our big screen televisions and magazine varieties while we meticulously apply our craft for each and every patron.<br />
+          We provide a wide range of services for men and children. Enjoy our big screen televisions and magazine varieties while we meticulously apply our craft for each and every patron.<br />
+          <br />
+          The services we provide include flat top, skin fade, shear cuts, special cuts, beard trims, beard shaves, head shave with razor, and shampoo.<br />
           <br />
           After your haircut, we offer a complimentary mini-massage and hot towel to give an unforgetabble experience of always leaving the shop feeling like a new person.<br />
           <br />
