@@ -37,6 +37,8 @@ const Layout = ({ children }) => (
         <Helmet
           title={data.site.siteMetadata.title}
           meta={[
+            { property: 'description', content: "Home page for Dulles Barber Shop located in Ashburn and Sterling, Virginia servicing men and children haircut needs. See address, hours, and contact information" },
+            { property: 'keywords', content: "barber, barbershop, men, children, haircuts, flat top, skin fade, shampoo and cut, shear cut, head shave, beard trims, beard shaves, special cuts, ashburn, sterling, virginia" },
             { property: 'og:title', content: "Dulles Barber Shop in Ashburn and Sterling Area" },
             { property: 'og:type', content: "website" },
             { property: 'og:url', content: "https://dullesbarber.com/" },
