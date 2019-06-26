@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: "Welcome to Dulles Barber!",
+    title: "Dulles Barber Shop in Ashburn and Sterling Area"
   },
   plugins: [
     'gatsby-plugin-react-helmet',

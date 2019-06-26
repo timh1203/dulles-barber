@@ -37,8 +37,17 @@ const Layout = ({ children }) => (
         <Helmet
           title={data.site.siteMetadata.title}
           meta={[
-            { name: 'description', content: 'Sample' },
-            { name: 'keywords', content: 'sample, something' },
+            { property: 'og:title', content: "Dulles Barber Shop in Ashburn and Sterling Area" },
+            { property: 'og:type', content: "website" },
+            { property: 'og:url', content: "https://dullesbarber.com/" },
+            { property: 'og:image', content: "https://github.com/timh1203/dullesBarber/blob/master/src/assets/images/ashburn.jpg" },
+            { property: 'og:description', content: "Dulles Barber is a privately owned family business that provides professional haircuts in the Loudoun County area serving the Ashburn and Sterling area for men and children haircuts. " },
+            { property: 'og:site_name', content: "Dulles Barber Shop" },
+            { property: 'og:image:secure_url', content: "https://github.com/timh1203/dullesBarber/blob/master/src/assets/images/ashburn.jpg" },
+            { property: 'og:image:type', content: "image/jpeg" },
+            { property: 'og:image:width', content: "200" },
+            { property: 'og:image:height', content: "200" },
+            { property: 'og:image:alt', content: "Dulles Barber Shop in Ashburn" },
           ]}
         >
           <html lang="en" />
@@ -69,8 +78,8 @@ const GlobalStyles = createGlobalStyle`
   dl, dt, dd, ol, ul, li,
   fieldset, form, label, legend,
   table, caption, tbody, tfoot, thead, tr, th, td,
-  article, aside, canvas, details, embed, 
-  figure, figcaption, footer, header, hgroup, 
+  article, aside, canvas, details, embed,
+  figure, figcaption, footer, header, hgroup,
   menu, nav, output, ruby, section, summary,
   time, mark, audio, video {
     margin: 0;
@@ -111,7 +120,7 @@ const GlobalStyles = createGlobalStyle`
     font-size: 1.6rem;
   }
   /* HTML5 display-role reset for older browsers */
-  article, aside, details, figcaption, figure, 
+  article, aside, details, figcaption, figure,
   footer, header, hgroup, menu, nav, section {
     display: block;
   }
