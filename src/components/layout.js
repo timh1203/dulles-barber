@@ -16,7 +16,7 @@ const Layout = ({ children }) => (
             title
           }
         },
-        bannerImage: file(relativePath: { eq: "banner.jpg" }) {
+        bannerImage: file(relativePath: { eq: "banner.webp" }) {
           childImageSharp {
             fluid(maxWidth: 1280, quality: 100) {
               ...GatsbyImageSharpFluid
