@@ -14,6 +14,7 @@ const Sterling = (props) => (
           <a
             href={links.gmaps_sterling.url}
             alt={links.gmaps_sterling.alt}
+            aria-label={links.gmaps_sterling.ariaLabel}
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -22,6 +23,7 @@ const Sterling = (props) => (
           <a
             href={links.yelp_sterling.url}
             alt={links.yelp_sterling.alt}
+            aria-label={links.yelp_sterling.ariaLabel}
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -30,6 +32,7 @@ const Sterling = (props) => (
           <a
             href={links.fb_sterling.url}
             alt={links.fb_sterling.alt}
+            aria-label={links.fb_sterling.ariaLabel}
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -38,6 +41,7 @@ const Sterling = (props) => (
           <a
             href={links.twitter.url}
             alt={links.twitter.alt}
+            aria-label={links.twitter.ariaLabel}
             target="_blank"
             rel="noopener noreferrer"
           >

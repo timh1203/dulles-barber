@@ -14,6 +14,7 @@ const Ashburn = (props) => (
           <a
             href={links.gmaps_ashburn.url}
             alt={links.gmaps_ashburn.alt}
+            aria-label={links.gmaps_ashburn.ariaLabel}
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -22,6 +23,7 @@ const Ashburn = (props) => (
           <a
             href={links.yelp_ashburn.url}
             alt={links.yelp_ashburn.alt}
+            aria-label={links.yelp_ashburn.ariaLabel}
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -30,6 +32,7 @@ const Ashburn = (props) => (
           <a
             href={links.fb_ashburn.url}
             alt={links.fb_ashburn.alt}
+            aria-label={links.fb_ashburn.ariaLabel}
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -38,6 +41,7 @@ const Ashburn = (props) => (
           <a
             href={links.twitter.url}
             alt={links.twitter.alt}
+            aria-label={links.twitter.ariaLabel}
             target="_blank"
             rel="noopener noreferrer"
           >
