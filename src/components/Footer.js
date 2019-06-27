@@ -9,7 +9,7 @@ const Footer = () => (
 
 const Section = styled.section`
   background: #171717;
-  color: #666;
+  color: white;
   height: 30px;
   display: flex;
   align-items: center;

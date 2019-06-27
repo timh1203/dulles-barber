@@ -25,6 +25,7 @@ const Div1 = styled.div`
 const P1 = styled.div`
 	font-size: 2rem;
 	line-height: 1.5;
+  color: black;
 `;
 
 export default Notification;

@@ -132,16 +132,15 @@ const Button1 = styled.button`
   margin: 1rem;
   border-radius: 5px;
   background: #DAA520;
-  color: white;
+  color: black;
   border: 2px solid black;
   font-weight: 700;
-  text-shadow: 1px 1px 3px black;
   &:hover {
     cursor: pointer;
     background: black;
+    color: white;
     transform: scale(1.10);
     border-radius: 5px;
-    text-shadow: 1px 1px 3px #DAA520;
     border: 2px solid #DAA520;
   }
 `
