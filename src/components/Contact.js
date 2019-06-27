@@ -19,16 +19,20 @@ const About = () => (
             <input type="hidden" name="_gotcha" />
           </li>
           <li>
-            <Input1 type="text" name="First Name" placeholder="First Name" required />
+            <Label1 htmlFor="formFirstName">First Name</Label1>
+              <Input1 id="formFirstName" type="text" name="First Name" placeholder="First Name" required />
           </li>
           <li>
-            <Input1 type="text" name="Last Name" placeholder="Last Name" required />
+            <Label1 htmlFor="formLastName">Last Name</Label1>
+            <Input1 id="formLastName" type="text" name="Last Name" placeholder="Last Name" required />
           </li>
           <li>
-            <Input1 type="email" name="Email" placeholder="Email" required />
+            <Label1 htmlFor="formEmail">Email</Label1>
+              <Input1 id="formEmail" type="email" name="Email" placeholder="Email" required />
           </li>
           <li>
-            <Textarea1 type="text" name="Message" placeholder="Message" required></Textarea1>
+            <Label1 htmlFor="formMessage">Message</Label1>
+              <Textarea1 id="formMessage"type="text" name="Message" placeholder="Message" required></Textarea1>
           </li>
           <li>
             <Button1 type="submit">Send</Button1>
@@ -95,6 +99,10 @@ const Li1 = styled.ul`
     margin: 0 auto;
     line-height: 1.6;
   }
+`
+const Label1 = styled.label`
+  visibility: hidden;
+  display: block;
 `
 const Input1 = styled.input`
   width: 60%;
