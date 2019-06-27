@@ -92,7 +92,7 @@ const H1a = styled.h1`
 `
 const Ul1 = styled.ul`
 `
-const Li1 = styled.ul`
+const Li1 = styled.li`
   line-height: 2;
   @media (max-width: 400px) {
     width: 100%;
