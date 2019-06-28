@@ -4,7 +4,7 @@ import styled from 'styled-components';
 const Notification = props => (
 	<Div1>
 		<P1>
-			Need a cut to beat the summer heat? Look for savings in Valpak!
+      We're closed on Thursday July 4th, 2019! Happy Independence day!
 			{/* <span role="img" aria-label="icon">🎉</span> */}
 			{/* <span role="img" aria-label="icon">🐰</span> */}
 			{/* <span role="img" aria-label="icon">🥚</span> */}
