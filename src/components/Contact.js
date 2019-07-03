@@ -12,28 +12,28 @@ const About = () => (
             <p>We <Span1>only</Span1> use your email to answer your questions and comments,</p>
             <p>it will be <Span1>never</Span1> sold or spammed.</p>
           </Li1>
-          <li>
+          <Li2>
             <input type="hidden" name="From" value="dullesbarber.com" />
-          </li>
-          <li>
+          </Li2>
+          <Li2>
             <input type="hidden" name="_gotcha" />
-          </li>
-          <li>
-            <label for="firstName"></label>
-              <Input1 id="firstName" type="text" name="firstName" placeholder="First Name" required />
-          </li>
-          <li>
-            <label for="lastName"></label>
-              <Input1 id="lastName" type="text" name="lastName" placeholder="Last Name" required />
-          </li>
-          <li>
-            <label for="email"></label>
-              <Input1 id="email" type="email" name="email" placeholder="Email" required />
-          </li>
-          <li>
-            <label for="message"></label>
-              <Textarea1 id="message"type="text" name="message" placeholder="Message" required></Textarea1>
-          </li>
+          </Li2>
+          <Li2>
+            <Label1 for="firstName">First Name</Label1>
+              <Input1 id="firstName" type="text" name="firstName" required />
+          </Li2>
+          <Li2>
+            <Label1 for="lastName">Last Name</Label1>
+              <Input1 id="lastName" type="text" name="lastName" required />
+          </Li2>
+          <Li2>
+            <Label1 for="email">Email</Label1>
+              <Input1 id="email" type="email" name="email" required />
+          </Li2>
+          <Li3>
+            <Label2 for="message">Message</Label2>
+              <Textarea1 id="message"type="text" name="message" required></Textarea1>
+          </Li3>
           <li>
             <Button1 type="submit">Send</Button1>
           </li>
@@ -92,6 +92,13 @@ const H1a = styled.h1`
 `
 const Ul1 = styled.ul`
 `
+const Label1 = styled.label`
+  font-size: 1.6rem;
+`
+const Label2 = styled.label`
+  display: block;
+  font-size: 1.6rem;
+`
 const Li1 = styled.li`
   line-height: 2;
   @media (max-width: 400px) {
@@ -100,8 +107,18 @@ const Li1 = styled.li`
     line-height: 1.6;
   }
 `
+const Li2 = styled.li`
+  width:60%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+`
+const Li3 = styled(Li2)`
+  align-items: baseline;
+`
 const Input1 = styled.input`
-  width: 60%;
+  width: 70%;
   font-size: 1.6rem;
   padding: 1rem;
   margin: 1rem;
@@ -115,7 +132,7 @@ const Input1 = styled.input`
   }
 `
 const Textarea1 = styled.textarea`
-  width: 60%;
+  width: 70%;
   height: 200px;
   font-size: 1.6rem;
   padding: 1rem;
