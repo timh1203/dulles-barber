@@ -19,23 +19,23 @@ const About = () => (
             <input type="hidden" name="_gotcha" />
           </li>
           <li>
-            <label>
-              <Input1 type="text" name="First Name" placeholder="First Name" required />
+            <label for="formFirstName">
+              <Input1 id="formFirstName" type="text" name="First Name" placeholder="First Name" required />
             </label>
           </li>
           <li>
-            <label>
-              <Input1 type="text" name="Last Name" placeholder="Last Name" required />
+            <label for="formLastName">
+              <Input1 id="formLastName" type="text" name="Last Name" placeholder="Last Name" required />
             </label>
           </li>
           <li>
-            <label>
-              <Input1 type="email" name="Email" placeholder="Email" required />
+            <label for="formEmail">
+              <Input1 id="formEmail" type="email" name="Email" placeholder="Email" required />
             </label>
           </li>
           <li>
-            <label>
-              <Textarea1 type="text" name="Message" placeholder="Message" required></Textarea1>
+            <label for="formMessage">
+              <Textarea1 id="formMessage"type="text" name="Message" placeholder="Message" required></Textarea1>
             </label>
           </li>
           <li>
