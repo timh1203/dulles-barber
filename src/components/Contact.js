@@ -31,7 +31,7 @@ const About = () => (
               <Input1 id="email" type="email" name="email" required />
           </Li2>
           <Li3>
-            <Label2 for="message">Message</Label2>
+            <Label1 for="message">Message</Label1>
               <Textarea1 id="message"type="text" name="message" required></Textarea1>
           </Li3>
           <li>
@@ -94,10 +94,9 @@ const Ul1 = styled.ul`
 `
 const Label1 = styled.label`
   font-size: 1.6rem;
-`
-const Label2 = styled.label`
-  display: block;
-  font-size: 1.6rem;
+  @media (max-width: 400px) {
+    display: block;
+  }
 `
 const Li1 = styled.li`
   line-height: 2;
@@ -105,6 +104,7 @@ const Li1 = styled.li`
     width: 100%;
     margin: 0 auto;
     line-height: 1.6;
+    margin-bottom: 20px;
   }
 `
 const Li2 = styled.li`
@@ -115,6 +115,10 @@ const Li2 = styled.li`
   align-items: center;
   @media (max-width: 768px) {
     width: 70%;
+  }
+  @media (max-width: 400px) {
+    display: block;
+    width: 100%;
   }
 `
 const Li3 = styled(Li2)`
