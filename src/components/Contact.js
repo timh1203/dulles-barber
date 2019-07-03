@@ -113,6 +113,9 @@ const Li2 = styled.li`
   display: flex;
   justify-content: space-between;
   align-items: center;
+  @media (max-width: 768px) {
+    width: 70%;
+  }
 `
 const Li3 = styled(Li2)`
   align-items: baseline;
@@ -128,7 +131,7 @@ const Input1 = styled.input`
     box-shadow: 0 0 20px #82DBFA;
   }
   @media (max-width: 768px) {
-    width: 80%;
+    width: 70%;
   }
 `
 const Textarea1 = styled.textarea`
@@ -143,7 +146,7 @@ const Textarea1 = styled.textarea`
     box-shadow: 0 0 20px #82DBFA;
   }
   @media (max-width: 768px) {
-    width: 80%;
+    width: 70%;
   }
 `
 const Button1 = styled.button`
