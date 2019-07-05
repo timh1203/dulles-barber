@@ -4,7 +4,7 @@ import styled from 'styled-components';
 const Notification = props => (
 	<Div1>
 		<P1>
-      We're closed on Thursday July 4th, 2019! Happy Independence day!
+      Stay cool and hydrated this summer! Having short hair helps too.
 			{/* <span role="img" aria-label="icon">🎉</span> */}
 			{/* <span role="img" aria-label="icon">🐰</span> */}
 			{/* <span role="img" aria-label="icon">🥚</span> */}
