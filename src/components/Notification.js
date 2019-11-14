@@ -2,14 +2,14 @@ import React from 'react';
 import styled from 'styled-components';
 
 const Notification = props => (
-	<Div1>
-		<P1>
-      Stay cool and hydrated this summer! Having short hair helps too.
+  <Div1>
+    <P1>
+      We'll be closed for Thanksgiving Day (Thursday the 28th)! Happy Holidays!
 			{/* <span role="img" aria-label="icon">🎉</span> */}
-			{/* <span role="img" aria-label="icon">🐰</span> */}
-			{/* <span role="img" aria-label="icon">🥚</span> */}
-		</P1>
-	</Div1>
+      {/* <span role="img" aria-label="icon">🐰</span> */}
+      {/* <span role="img" aria-label="icon">🥚</span> */}
+    </P1>
+  </Div1>
 );
 
 const Div1 = styled.div`
