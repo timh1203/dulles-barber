@@ -4,7 +4,7 @@ import styled from 'styled-components';
 const Notification = props => (
   <Div1>
     <P1>
-      We'll be closed for Thanksgiving Day (Thursday the 28th)! Happy Holidays!
+      Happy Holidays from all of us at Dulles Barber!
 			{/* <span role="img" aria-label="icon">🎉</span> */}
       {/* <span role="img" aria-label="icon">🐰</span> */}
       {/* <span role="img" aria-label="icon">🥚</span> */}
