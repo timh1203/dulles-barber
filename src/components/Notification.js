@@ -4,8 +4,8 @@ import styled from 'styled-components';
 const Notification = props => (
   <Div1>
     <P1>
-      Happy holidays from all of us at Dulles Barber!
-			{/* <span role="img" aria-label="icon">🎉</span> */}
+      We will be closed Dec 25th and Jan 1st! Happy holidays from all of us at Dulles Barber!
+      {/* <span role="img" aria-label="icon">🎉</span> */}
       {/* <span role="img" aria-label="icon">🐰</span> */}
       {/* <span role="img" aria-label="icon">🥚</span> */}
     </P1>
@@ -13,18 +13,18 @@ const Notification = props => (
 );
 
 const Div1 = styled.div`
-	background: #daa520;
-	color: white;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	@media (max-width: 400px) {
-		padding: 1rem;
-	}
+  background: #daa520;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  @media (max-width: 400px) {
+    padding: 1rem;
+  }
 `;
 const P1 = styled.div`
-	font-size: 2rem;
-	line-height: 1.5;
+  font-size: 2rem;
+  line-height: 1.5;
   color: black;
 `;
 
