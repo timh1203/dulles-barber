@@ -4,7 +4,7 @@ import styled from 'styled-components';
 const Notification = props => (
   <Div1>
     <P1>
-      We will be closed Dec 25th and Jan 1st! Happy holidays from all of us at Dulles Barber!
+      Surprise your valentine with a sharp new cut!
       {/* <span role="img" aria-label="icon">🎉</span> */}
       {/* <span role="img" aria-label="icon">🐰</span> */}
       {/* <span role="img" aria-label="icon">🥚</span> */}
