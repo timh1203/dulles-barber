@@ -4,7 +4,7 @@ import styled from 'styled-components';
 const Notification = props => (
   <Div1>
     <P1>
-      Surprise your valentine with a sharp new cut!
+      Let us help you look great!
       {/* <span role="img" aria-label="icon">🎉</span> */}
       {/* <span role="img" aria-label="icon">🐰</span> */}
       {/* <span role="img" aria-label="icon">🥚</span> */}
