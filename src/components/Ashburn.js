@@ -53,9 +53,10 @@ const Ashburn = (props) => (
           43330 Junction Plaza Ste 134 <br />
           Ashburn, VA 20147 <br />
           <br />
-          Monday–Friday 9-7PM <br />
-          Saturday 9-6PM <br />
-          Sunday 10-5PM <br />
+          <Span2>Closed Temporarily</Span2> <br />
+          <strike>Monday–Friday 9-7PM</strike> <br />
+          <strike>Saturday 9-6PM</strike> <br />
+          <strike>Sunday 10-5PM</strike> <br />
           <br />
           <Span1>(703)858-0101</Span1>
         </P1>
@@ -72,6 +73,12 @@ const Ashburn = (props) => (
   </Section>
 )
 
+const Span2 = styled.span`
+  color: red;
+  font-weight: 700;
+  text-decoration: underline;
+  font-size: 2.4rem;
+`
 const Section = styled.section`
 `
 const Div = styled.div`

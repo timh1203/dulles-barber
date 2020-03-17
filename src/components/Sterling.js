@@ -53,9 +53,10 @@ const Sterling = (props) => (
           21000 Southbank Street Ste 108 <br />
           Sterling, VA 20165 <br />
           <br />
-          Monday–Friday 9-7PM <br />
-          Saturday 9-6:30PM <br />
-          Sunday 10-5:30PM <br />
+          <Span2>Closed Temporarily</Span2> <br />
+          <strike>Monday–Friday 9-7PM</strike> <br />
+          <strike>Saturday 9-6:30PM</strike> <br />
+          <strike>Sunday 10-5:30PM</strike> <br />
           <br />
           <Span1>(703)430-3434</Span1>
         </P1>
@@ -71,7 +72,12 @@ const Sterling = (props) => (
     </Div>
   </Section>
 )
-
+const Span2 = styled.span`
+  color: red;
+  font-weight: 700;
+  text-decoration: underline;
+  font-size: 2.4rem;
+`
 const Section = styled.section`
 `
 const Div = styled.div`
