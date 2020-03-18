@@ -146,6 +146,7 @@ const Textarea1 = styled.textarea`
   margin: 1rem;
   border-radius: 2px;
   font-family: 'Quicksand';
+  box-shadow: none;
   &:focus {
     box-shadow: 0 0 20px #82DBFA;
   }
