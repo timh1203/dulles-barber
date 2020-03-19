@@ -18,7 +18,7 @@ const About = (props) => (
           <br />
           The services we provide include flat top, skin fade, shear cuts, special cuts, beard trims, beard shaves, head shave with razor, and shampoo.<br />
           <br />
-          After your haircut, we offer a complimentary mini-massage and hot towel to give an unforgetabble experience of always leaving the shop feeling like a new person.<br />
+          After your haircut, we offer a complimentary mini-massage and hot towel to give an unforgettable experience of always leaving the shop feeling like a new person.<br />
           <br />
           We welcome you to visit us and thank you for checking us out! If we can make your experience better in any way, please let us know.<br />
           <br />
