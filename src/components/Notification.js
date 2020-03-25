@@ -7,7 +7,8 @@ const Notification = props => (
       <Span2>Closed Temporarily</Span2> <br />
       Due to the current situation, we have decided to close our Ashburn and Sterling locations until further notice. <br />
       We greatly appreciate your understanding in the interest of your health and the general public. <br />
-      We will make new updates right here on our website first.
+      At this time, we are not doing house calls or taking appointments. We are sorry for this inconvenience. <br />
+      We are looking brightly to the future and will make new updates right here on our website first.
       {/* <span role="img" aria-label="icon">🎉</span> */}
       {/* <span role="img" aria-label="icon">🐰</span> */}
       {/* <span role="img" aria-label="icon">🥚</span> */}
