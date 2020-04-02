@@ -4,26 +4,21 @@ import styled from 'styled-components';
 const Notification = props => (
   <Div1>
     <P1>
-      <Span2>Closed Temporarily</Span2> <br />
-      Due to the current situation, we have decided to close our Ashburn and Sterling locations until further notice. <br />
-      We greatly appreciate your understanding in the interest of your health and the general public. <br />
+      <Span1>Closed Temporarily</Span1> <br />
+      Due to the current situation, we have closed our Ashburn and Sterling locations until further notice. <br />
       At this time, we are not doing house calls or taking appointments. We are sorry for this inconvenience. <br />
-      We are looking brightly to the future and will make new updates right here on our website first.
+      Also, we greatly appreciate the influx of support from our customers but not accepting donations/gift cards purchases. <br />
+      We are managing and aware of the government programs. We are looking brightly to the future and for now, <br />
+      we are following mandated procedures until June. Please stay safe and we will make new updates right here on our website first. <br />
+      We thank you for your understanding in the interest of your health and the general public. <br />
       {/* <span role="img" aria-label="icon">🎉</span> */}
       {/* <span role="img" aria-label="icon">🐰</span> */}
       {/* <span role="img" aria-label="icon">🥚</span> */}
-    </P1>
-    <P1>
+      <Span2>Last updated: April 2nd, 2020</Span2>
     </P1>
   </Div1>
 );
 
-const Span2 = styled.span`
-  color: red;
-  font-weight: 700;
-  text-decoration: underline;
-  font-size: 2.8rem;
-`
 const Div1 = styled.div`
   background: #daa520;
   color: white;
@@ -34,11 +29,21 @@ const Div1 = styled.div`
     padding: 1rem;
   }
 `;
-const P1 = styled.div`
+const P1 = styled.p`
   font-size: 2.4rem;
   line-height: 1.5;
   color: black;
   margin: 10px 0;
+`;
+const Span1 = styled.span`
+  color: red;
+  font-weight: 700;
+  text-decoration: underline;
+  font-size: 2.8rem;
+`
+const Span2 = styled.span`
+  font-size: 1.4rem;
+  text-decoration: underline;
 `;
 
 export default Notification;
