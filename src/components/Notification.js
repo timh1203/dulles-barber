@@ -5,15 +5,15 @@ const Notification = props => (
   <Div1>
     <P1>
       <Span1>Closed Temporarily</Span1> <br />
-      We have not decided on a re-opening date just yet, we're working towards this as policies develop. <br />
-      At this time, we are not doing house calls or taking appointments. We are sorry for this inconvenience. <br />
-      We greatly appreciate the influx of support but not accepting donations/gift cards purchases. <br />
-      Please stay safe and we will make new updates right here on our website first. <br />
-      We thank you for your understanding in the interest of your health and the general public. <br />
+      Despite developing policies to open May 15th, we are not yet planning to open the store or take appointments.
+      As you might be aware, there's also strong support against proceeding with Phase 1 at this time.
+      The owners are using their best judgment and <u>tentatively</u> planning to open at the end of May or start of June.
+      We thank you for your continued patience and hope you can understand all the risks we face when re-opening.
+      As always, we greatly appreciate your heartfelt support for our barbers and Dulles Barber! <br />
       {/* <span role="img" aria-label="icon">🎉</span> */}
       {/* <span role="img" aria-label="icon">🐰</span> */}
       {/* <span role="img" aria-label="icon">🥚</span> */}
-      <Span2>Last updated: April 22nd, 2020</Span2>
+      <Span2>Last updated: May 11th, 2020</Span2>
     </P1>
   </Div1>
 );
@@ -29,11 +29,11 @@ const Div1 = styled.div`
   }
 `;
 const P1 = styled.p`
-  font-size: 2.4rem;
+  font-size: 2rem;
   line-height: 1.5;
   color: black;
   margin: 10px 0;
-  width: 80%;
+  width: 60%;
 `;
 const Span1 = styled.span`
   color: red;
