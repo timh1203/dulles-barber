@@ -5,15 +5,15 @@ const Notification = props => (
   <Div1>
     <P1>
       <Span1>Closed Temporarily</Span1> <br />
-      Despite developing policies to open May 15th, we are not yet planning to open the store or take appointments.
-      As you might be aware, there's also strong support against proceeding with Phase 1 at this time.
-      The owners are using their best judgment and <u>tentatively</u> planning to open at the end of May or start of June.
+      Following today's order from Governor Northam to delay opening until May 29th, we will remain closed and not taking any appointments at this time.
+      Loudoun County has been mandated to remain in Phase 0 due to Northern Virginia's reported cases of about 14,000.
+      The owners are using their best judgment and awaiting further developing policies.
       We thank you for your continued patience and hope you can understand all the risks we face when re-opening.
       As always, we greatly appreciate your heartfelt support for our barbers and Dulles Barber! <br />
       {/* <span role="img" aria-label="icon">🎉</span> */}
       {/* <span role="img" aria-label="icon">🐰</span> */}
       {/* <span role="img" aria-label="icon">🥚</span> */}
-      <Span2>Last updated: May 11th, 2020</Span2>
+      <Span2>Last updated: May 12th, 2020</Span2>
     </P1>
   </Div1>
 );
