@@ -4,16 +4,18 @@ import styled from 'styled-components';
 const Notification = props => (
   <Div1>
     <P1>
-      <Span1>Closed Temporarily</Span1> <br />
-      Following today's order from Governor Northam to delay opening until May 29th, we will remain closed and not taking any appointments at this time.
-      Loudoun County has been mandated to remain in Phase 0 due to Northern Virginia's reported cases of about 14,000.
-      The owners are using their best judgment and awaiting further developing policies.
-      We thank you for your continued patience and hope you can understand all the risks we face when re-opening.
-      As always, we greatly appreciate your heartfelt support for our barbers and Dulles Barber! <br />
+      <Span1>Reopening on May 29th, 2020</Span1> <br />
+      Please read <strong>announcements</strong> for location hours and reopening plans. <br />
+      <A1 href="https://drive.google.com/file/d/1MWgopFhUnSP6rh0hzJunzDp5exU7Wc2h/view?usp=sharing" alt="Announcements PDF" target="_blank">Announcements</A1> <br /> <br />
+      Please also look at <strong>available barbers</strong> before coming to sign up at our store. <br />
+      <A1 href="https://drive.google.com/file/d/1sWrYgsR6akHu6EBnMSYxQ1-oZNUb8fKG/view?usp=sharing" alt="Available Barbers PDF" target="_blank">Available Barbers</A1> <br /> <br />
+      Thank you for your understanding about our operations with limited staffing. <br />
+      Please email us with any questions. Our barbers will <u>not</u> be answering the store phone. <br />
+      We thank you so much for your patience and we are excited to see you soon. <br />
       {/* <span role="img" aria-label="icon">🎉</span> */}
       {/* <span role="img" aria-label="icon">🐰</span> */}
       {/* <span role="img" aria-label="icon">🥚</span> */}
-      <Span2>Last updated: May 12th, 2020</Span2>
+      <Span2>Last updated: May 27th, 2020</Span2>
     </P1>
   </Div1>
 );
@@ -45,5 +47,8 @@ const Span2 = styled.span`
   font-size: 1.4rem;
   text-decoration: underline;
 `;
+const A1 = styled.a`
+  color: blue;
+`
 
 export default Notification;
