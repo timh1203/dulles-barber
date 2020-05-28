@@ -8,7 +8,7 @@ const Notification = props => (
       Please read <strong>announcements</strong> for location hours and reopening plans. <br />
       <A1 href="https://drive.google.com/file/d/1MWgopFhUnSP6rh0hzJunzDp5exU7Wc2h/view?usp=sharing" alt="Announcements PDF" target="_blank">Announcements</A1> <br /> <br />
       Please also look at <strong>available barbers</strong> before coming to sign up at our store. <br />
-      <A1 href="https://drive.google.com/file/d/1sWrYgsR6akHu6EBnMSYxQ1-oZNUb8fKG/view?usp=sharing" alt="Available Barbers PDF" target="_blank">Available Barbers</A1> <br /> <br />
+      <A1 href="https://drive.google.com/file/d/1SuiV-V2XHHcmXXUcV-_P8S3I-7IAAE5j/view?usp=sharing" alt="Available Barbers PDF" target="_blank">Available Barbers</A1> <br /> <br />
       Thank you for your understanding about our operations with limited staffing. <br />
       Please email us with any questions. Our barbers will <u>not</u> be answering the store phone. <br />
       We thank you so much for your patience and we are excited to see you soon. <br />
