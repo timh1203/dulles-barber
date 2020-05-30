@@ -4,18 +4,18 @@ import styled from 'styled-components';
 const Notification = props => (
   <Div1>
     <P1>
-      <Span1>Reopening on May 29th, 2020</Span1> <br />
-      Please read <strong>announcements</strong> for location hours and reopening plans. <br />
+      <Span1>We have reopened since May 29th, 2020!</Span1> <br />
+      Please read <strong>announcements</strong> for location hours and our procedures. <br />
       <A1 href="https://drive.google.com/file/d/1MWgopFhUnSP6rh0hzJunzDp5exU7Wc2h/view?usp=sharing" alt="Announcements PDF" target="_blank">Announcements</A1> <br /> <br />
       Please also look at <strong>available barbers</strong> before coming to sign up at our store. <br />
-      <A1 href="https://drive.google.com/file/d/1SuiV-V2XHHcmXXUcV-_P8S3I-7IAAE5j/view?usp=sharing" alt="Available Barbers PDF" target="_blank">Available Barbers</A1> <br /> <br />
+      <A1 href="https://drive.google.com/file/d/1tLeyZ3aaaSgMFLdBGrT8lj-KOqCFZHyZ/view?usp=sharing" alt="Available Barbers PDF" target="_blank">Available Barbers</A1> <br /> <br />
       Thank you for your understanding about our operations with limited staffing. <br />
       Please email us with any questions. Our barbers will <u>not</u> be answering the store phone. <br />
-      We thank you so much for your patience and we are excited to see you soon. <br />
+      We thank you so much for helping us reopen successfully and your continued support! <br />
       {/* <span role="img" aria-label="icon">🎉</span> */}
       {/* <span role="img" aria-label="icon">🐰</span> */}
       {/* <span role="img" aria-label="icon">🥚</span> */}
-      <Span2>Last updated: May 27th, 2020</Span2>
+      <Span2>Last updated: May 30th, 2020</Span2>
     </P1>
   </Div1>
 );
