@@ -4,16 +4,16 @@ import styled from 'styled-components';
 const Notification = props => (
   <Div1>
     <P1>
-      <Span1>Phase 2 reopening plans today!</Span1> <br />
-      There have been some new changes in the announcements for store hours and entry policy and in the available barbers with changes in their hours. <br /> <br />
-      <A1 href="https://drive.google.com/file/d/1xDwK-vFB8G-GDn88QATSRZRhkShDCmWB/view?usp=sharing" alt="Announcements Phase 2 PDF" target="_blank">Announcements, Phase 2</A1> <br />
-      <A1 href="https://drive.google.com/file/d/1YT6UdtYhBBaKriZOI-Gq2NPW2gL7_F9l/view?usp=sharing" alt="Available Barbers Phase 2 PDF" target="_blank">Available Barbers, Phase 2</A1> <br /> <br />
+      <Span1>We're now on Phase 3!</Span1> <br />
+      We're now up to 75% capacity with social distancing in place and some changes in available barbers. <br /> <br />
+      <A1 href="https://drive.google.com/file/d/1gb7XAnbx18c-2zbirfoqNAJhTSPSm1q1/view?usp=sharing" alt="Announcements Phase 3 PDF" target="_blank">Announcements, Phase 3</A1> <br />
+      <A1 href="https://drive.google.com/file/d/1BUhfSq7kp7FEtu__rdc1XTrsdguh3qlQ/view?usp=sharing" alt="Available Barbers Phase 3 PDF" target="_blank">Available Barbers, Phase 3</A1> <br /> <br />
       Please email us with any questions. Our barbers will <u>not</u> be answering the store phone. <br />
-      We thank you so much for helping us reopen successfully and your continued support in this next phase! <br />
+      We thank you so much for helping us reopen successfully and your continued support! <br />
       {/* <span role="img" aria-label="icon">🎉</span> */}
       {/* <span role="img" aria-label="icon">🐰</span> */}
       {/* <span role="img" aria-label="icon">🥚</span> */}
-      <Span2>Last updated: June 12th, 2020</Span2>
+      <Span2>Last updated: July 8th, 2020</Span2>
     </P1>
   </Div1>
 );
