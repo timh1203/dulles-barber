@@ -1,6 +1,7 @@
 import React from 'react'
 import { graphql } from 'gatsby'
 import Layout from '../components/layout'
+import Holidays from '../components/Holidays'
 import Ashburn from '../components/Ashburn'
 import Sterling from '../components/Sterling'
 import About from '../components/About'
@@ -11,6 +12,7 @@ import Footer from '../components/Footer'
 
 const HomePage = (props) => (
   <Layout>
+    <Holidays />
     <Ashburn
       ashburnImage={props.data.ashburnImage.childImageSharp.fluid}
       visaImage={props.data.visaImage.childImageSharp.fluid}

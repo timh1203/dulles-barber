@@ -53,10 +53,10 @@ const Sterling = (props) => (
           21000 Southbank Street Ste 108 <br />
           Sterling, VA 20165 <br />
           <br />
-          <Span2>See Announcements</Span2> <br />
-          <strike>Monday–Friday 9-7PM</strike> <br />
-          <strike>Saturday 9-6:30PM</strike> <br />
-          <strike>Sunday 10-5:30PM</strike> <br />
+          <Span2>Temporary Hours</Span2> <br />
+          Monday–Friday 9-6PM <br />
+          Saturday 9-5PM <br />
+          Sunday 10-5PM <br />
           <br />
           <Span1>(703)430-3434</Span1>
         </P1>

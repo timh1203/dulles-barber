@@ -53,10 +53,10 @@ const Ashburn = (props) => (
           43330 Junction Plaza Ste 134 <br />
           Ashburn, VA 20147 <br />
           <br />
-          <Span2>See Announcements</Span2> <br />
-          <strike>Monday–Friday 9-7PM</strike> <br />
-          <strike>Saturday 9-6PM</strike> <br />
-          <strike>Sunday 10-5PM</strike> <br />
+          <Span2>Temporary Hours</Span2> <br />
+          Monday–Friday 9-6PM <br />
+          Saturday 9-5PM <br />
+          Sunday 10-5PM <br />
           <br />
           <Span1>(703)858-0101</Span1>
         </P1>

@@ -4,16 +4,16 @@ import styled from 'styled-components';
 const Notification = props => (
   <Div1>
     <P1>
-      <Span1>We're now on Phase 3!</Span1> <br />
-      We're now up to 75% capacity with social distancing in place and some changes in available barbers. <br /> <br />
-      <A1 href="https://drive.google.com/file/d/1gb7XAnbx18c-2zbirfoqNAJhTSPSm1q1/view?usp=sharing" alt="Announcements Phase 3 PDF" target="_blank">Announcements, Phase 3</A1> <br />
-      <A1 href="https://drive.google.com/file/d/1BUhfSq7kp7FEtu__rdc1XTrsdguh3qlQ/view?usp=sharing" alt="Available Barbers Phase 3 PDF" target="_blank">Available Barbers, Phase 3</A1> <br /> <br />
-      Please email us with any questions. Our barbers will <u>not</u> be answering the store phone. <br />
-      We thank you so much for helping us reopen successfully and your continued support! <br />
+      <Span1>Back to Work</Span1> <br />
+      Our barbers have returned to work and you can call the store to check their schedule. <br />
+      As a reminder, <u>we don't take appointments</u> and only accept walk-ins. <br />
+      Our temporary hours are listed below for your convenience. <br />
+      A new holiday closure schedule is posted to help you plan for the rest of 2020. <br />
+      We thank you for your continued support in helping us stay safe and operational! <br />
       {/* <span role="img" aria-label="icon">🎉</span> */}
       {/* <span role="img" aria-label="icon">🐰</span> */}
       {/* <span role="img" aria-label="icon">🥚</span> */}
-      <Span2>Last updated: July 8th, 2020</Span2>
+      <Span2>Last updated: July 28th, 2020</Span2>
     </P1>
   </Div1>
 );
@@ -34,6 +34,9 @@ const P1 = styled.p`
   color: black;
   margin: 10px 0;
   width: 60%;
+  @media (max-width: 400px) {
+    width: 100%;
+  }
 `;
 const Span1 = styled.span`
   color: red;
@@ -45,8 +48,5 @@ const Span2 = styled.span`
   font-size: 1.4rem;
   text-decoration: underline;
 `;
-const A1 = styled.a`
-  color: blue;
-`
 
 export default Notification;

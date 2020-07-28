@@ -6,6 +6,9 @@ const Navigation = () => (
     <Hr />
     <Div2>
       <Button1>
+        <A1 href="#holidays">Holiday Schedule {new Date().getFullYear()}</A1>
+      </Button1>
+      <Button1>
         <A1 href="#ashburn">Ashburn Location</A1>
       </Button1>
       <Button1>
@@ -25,6 +28,7 @@ const Section1 = styled.section`
   margin: 4rem 0;
   @media (max-width: 400px) {
     padding: 1rem;
+    display: none;
   }
 `
 const Div2 = styled.div`
@@ -70,7 +74,6 @@ const Button1 = styled.button`
   }
   @media (max-width: 400px) {
     font-size: 1rem;
-    width: 20%;
   }
 `
 const A1 = styled.a`
