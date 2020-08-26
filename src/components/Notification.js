@@ -4,16 +4,15 @@ import styled from 'styled-components';
 const Notification = props => (
   <Div1>
     <P1>
-      <Span1>Back to Work</Span1> <br />
+      <Span1>Let's stay safe together</Span1> <br />
       Our barbers have returned to work and you can call the store to check their schedule. <br />
-      As a reminder, <u>we don't take appointments</u> and only accept walk-ins. <br />
+      <u>We don't take appointments</u> and only accept walk-ins. <br /><br />
+      As a reminder, we kindly ask to continue <u>bringing your mask and sanitizing your hands</u>. <br />
+      Please rinse your hair and don't apply gel/pomade/hair products before coming.<br /><br />
       Our temporary hours are listed below for your convenience. <br />
       A new holiday closure schedule is posted to help you plan for the rest of 2020. <br />
       We thank you for your continued support in helping us stay safe and operational! <br />
-      {/* <span role="img" aria-label="icon">🎉</span> */}
-      {/* <span role="img" aria-label="icon">🐰</span> */}
-      {/* <span role="img" aria-label="icon">🥚</span> */}
-      <Span2>Last updated: July 28th, 2020</Span2>
+      <Span2>Last updated: August 26th, 2020</Span2>
     </P1>
   </Div1>
 );
