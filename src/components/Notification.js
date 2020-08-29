@@ -6,10 +6,10 @@ const Notification = props => (
     <P1>
       <Span1>Let's stay safe together</Span1> <br />
       Our barbers have returned to work and you can call the store to check their schedule. <br />
-      <u>We don't take appointments</u> and only accept walk-ins. <br /><br />
-      As a reminder, we kindly ask to continue <u>bringing your mask and sanitizing your hands</u>. <br />
-      Please rinse your hair and don't apply gel/pomade/hair products before coming.<br /><br />
-      Our temporary hours are listed below for your convenience. <br />
+      <u>We don't take appointments</u> and only accept walk-ins. <br />
+      We kindly ask to continue <u>bringing your mask and sanitizing your hands</u>. <br /><br />
+
+      Want to know more? Please see&nbsp;<a href="https://drive.google.com/file/d/1K13Zh1QeoOX4qmIodGFvIWJwyqzJbebV/view?usp=sharing" target="_blank">additional information.</a><br /><br />
       A new holiday closure schedule is posted to help you plan for the rest of 2020. <br />
       We thank you for your continued support in helping us stay safe and operational! <br />
       <Span2>Last updated: August 26th, 2020</Span2>
