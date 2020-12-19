@@ -7,8 +7,13 @@ const Holidays = () => (
     <Div>
       <H1a>Holiday Closings</H1a>
       <P1>Our stores will be closed on the following holidays:</P1> <br /> <br />
-      <P1>Thanksgiving Day <br /> (November 26th, 2020)</P1> <br /> <br />
-      <P1>Christmas Day <br /> (December 25th, 2020)</P1>
+      <P1>Christmas Day (December 25<sup>th</sup>, 2020)</P1> <br />
+      <P1>New Year's Day (January 1<sup>st</sup>, 2021)</P1> <br />
+      <P1>Easter (April 4<sup>th</sup>, 2021)</P1> <br />
+      <P1>Memorial Day (May 31<sup>st</sup>, 2021)</P1> <br />
+      <P1>Independence Day (July 4<sup>th</sup>, 2021)</P1> <br />
+      <P1>Thanksgiving Day (November 25<sup>th</sup>, 2021)</P1> <br />
+      <P1>Christmas Day (December 25<sup>th</sup>, 2021)</P1> <br />
     </Div>
   </Section>
 )
